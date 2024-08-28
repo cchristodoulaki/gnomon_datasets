@@ -1,0 +1,281 @@
+datatable,portal,csv_column,extracted_name,target
+1,data.sa.gov.au_data,0,,name
+1,data.sa.gov.au_data,1,,title
+2,data.sa.gov.au_data,0,,name
+2,data.sa.gov.au_data,1,,title
+3,data.glasgow.gov.uk,0,Fieldname,name
+3,data.glasgow.gov.uk,1,description,definition
+3,data.glasgow.gov.uk,2,source,schema
+4,data.gov.uk,0,Dataset ID,UNMAPPED
+4,data.gov.uk,1,Dataset Name,dataset
+4,data.gov.uk,2,Field,name
+4,data.gov.uk,3,Type,datatype
+4,data.gov.uk,4,Mandatory or Optional requirement (MOR),nullable
+4,data.gov.uk,5,Field Description,definition
+4,data.gov.uk,6,Schema,schema
+4,data.gov.uk,7,LCC Mapping,UNMAPPED
+4,data.gov.uk,8,Schema Comments,UNMAPPED
+4,data.gov.uk,9,Schema Data Rules Comment,notes
+4,data.gov.uk,10,FormatReference,UNMAPPED
+4,data.gov.uk,11,Example,examples
+5,data.sa.gov.au_data,0,,name
+5,data.sa.gov.au_data,1,,title
+6,data.gov.au,0,Field Name,name
+6,data.gov.au,1,Description,definition
+7,data.glasgow.gov.uk,0,fieldname,name
+7,data.glasgow.gov.uk,1,description,definition
+8,data.glasgow.gov.uk,0,Field name,name
+8,data.glasgow.gov.uk,1,Datatype,datatype
+8,data.glasgow.gov.uk,2,Use,UNMAPPED
+8,data.glasgow.gov.uk,3,Data format,UNMAPPED
+8,data.glasgow.gov.uk,4,Field size,UNMAPPED
+8,data.glasgow.gov.uk,5,Description,definition
+8,data.glasgow.gov.uk,6,Example,examples
+8,data.glasgow.gov.uk,7,Null Value,UNMAPPED
+8,data.glasgow.gov.uk,8,Notes,notes
+9,data.glasgow.gov.uk,0,Field name,name
+9,data.glasgow.gov.uk,1,Datatype,datatype
+9,data.glasgow.gov.uk,2,Use,UNMAPPED
+9,data.glasgow.gov.uk,3,Data format,UNMAPPED
+9,data.glasgow.gov.uk,4,Field size,UNMAPPED
+9,data.glasgow.gov.uk,5,Description,definition
+9,data.glasgow.gov.uk,6,Example,examples
+9,data.glasgow.gov.uk,7,Null Value,UNMAPPED
+9,data.glasgow.gov.uk,8,Notes,notes
+10,data.gov.uk,0,Dataset ID,UNMAPPED
+10,data.gov.uk,1,Dataset Name,dataset
+10,data.gov.uk,2,Field,name
+10,data.gov.uk,3,Type,datatype
+10,data.gov.uk,4,Mandatory or Optional requirement (MOR),nullable
+10,data.gov.uk,5,Field Description,definition
+10,data.gov.uk,6,Schema,schema
+10,data.gov.uk,7,LCC Mapping,UNMAPPED
+10,data.gov.uk,8,Schema Comments,UNMAPPED
+10,data.gov.uk,9,Schema Data Rules Comment,notes
+10,data.gov.uk,10,FormatReference,UNMAPPED
+10,data.gov.uk,11,Example,examples
+11,data.gov.au,0,Attribute,name
+11,data.gov.au,1,Attribute Description,examples
+11,data.gov.au,2,Comment,UNMAPPED
+12,data.sa.gov.au_data,0,,name
+12,data.sa.gov.au_data,1,,title
+13,data.qld.gov.au,0,Variable,name
+13,data.qld.gov.au,1,Description,definition
+13,data.qld.gov.au,2,Values/Format,UNMAPPED
+14,data.gov.au,0,Field Name,name
+14,data.gov.au,1,Description,definition
+15,data.gov.uk,0,Dataset ID (DSID),UNMAPPED
+15,data.gov.uk,1,Dataset Name,dataset
+15,data.gov.uk,2,Field,name
+15,data.gov.uk,3,Type,datatype
+15,data.gov.uk,4,Mandatory or Optional requirement (MOR),nullable
+15,data.gov.uk,5,Field Description,definition
+15,data.gov.uk,6,Schema,schema
+15,data.gov.uk,7,LCC Mapping,UNMAPPED
+15,data.gov.uk,8,Schema Comments,UNMAPPED
+15,data.gov.uk,9,Schema Data Rules Comment,notes
+15,data.gov.uk,10,FormatReference,UNMAPPED
+15,data.gov.uk,11,Example,examples
+16,data.gov.uk,0,Dataset ID,UNMAPPED
+16,data.gov.uk,1,Dataset Name,dataset
+16,data.gov.uk,2,Field,name
+16,data.gov.uk,3,Type,datatype
+16,data.gov.uk,4,Mandatory or Optional requirement (MOR),nullable
+16,data.gov.uk,5,Field Description,definition
+16,data.gov.uk,6,Schema,schema
+16,data.gov.uk,7,LCC Mapping,UNMAPPED
+16,data.gov.uk,8,Schema Comments,UNMAPPED
+16,data.gov.uk,9,Schema Data Rules Comment,notes
+16,data.gov.uk,10,FormatReference,UNMAPPED
+16,data.gov.uk,11,Example,examples
+17,data.gov.au,0,,name
+17,data.gov.au,1,,title
+18,data.gov.au,0,Field Name,name
+18,data.gov.au,1,Description,definition
+19,data.glasgow.gov.uk,0,Field name,name
+19,data.glasgow.gov.uk,1,Datatype,datatype
+19,data.glasgow.gov.uk,2,Use,UNMAPPED
+19,data.glasgow.gov.uk,3,Data format,UNMAPPED
+19,data.glasgow.gov.uk,4,Field size,UNMAPPED
+19,data.glasgow.gov.uk,5,Description,definition
+19,data.glasgow.gov.uk,6,Example,examples
+19,data.glasgow.gov.uk,7,Null Value,UNMAPPED
+19,data.glasgow.gov.uk,8,Notes,notes
+20,data.qld.gov.au,0,FIELD NAME,name
+20,data.qld.gov.au,1,DESCRIPTION,definition
+21,data.gov.uk,0,Dataset ID (DSID),UNMAPPED
+21,data.gov.uk,1,Dataset Name,dataset
+21,data.gov.uk,2,Field,name
+21,data.gov.uk,3,Type,datatype
+21,data.gov.uk,4,Mandatory or Optional requirement (MOR),nullable
+21,data.gov.uk,5,Field Description,definition
+21,data.gov.uk,6,Schema,schema
+21,data.gov.uk,7,LCC Mapping,UNMAPPED
+21,data.gov.uk,8,Schema Comments,UNMAPPED
+21,data.gov.uk,9,Schema Data Rules Comment,notes
+21,data.gov.uk,10,FormatReference,UNMAPPED
+21,data.gov.uk,11,Example,examples
+22,data.sa.gov.au_data,0,Field Name,name
+22,data.sa.gov.au_data,1,Description,definition
+23,data.sa.gov.au_data,0,Field,name
+23,data.sa.gov.au_data,1,Description,definition
+24,open.canada.ca_data,0,COLUMN NAME,name
+24,open.canada.ca_data,1,FULL COLUMN NAME,title
+24,open.canada.ca_data,2,DESCRIPTION,definition
+24,open.canada.ca_data,3,DATA TYPE,datatype
+25,data.sa.gov.au_data,0,,name
+25,data.sa.gov.au_data,1,,title
+26,open.canada.ca_data,0,COLUMN NAME,name
+26,open.canada.ca_data,1,FULL COLUMN NAME,title
+26,open.canada.ca_data,2,DESCRIPTION,definition
+26,open.canada.ca_data,3,DATA TYPE,datatype
+27,data.gov.au,0,Field Name,name
+27,data.gov.au,1,Description,definition
+28,data.glasgow.gov.uk,0,Fieldname,name
+28,data.glasgow.gov.uk,1,description,definition
+28,data.glasgow.gov.uk,2,source,schema
+29,data.gov.au,0,resource_name,dataset
+29,data.gov.au,1,field_id,name
+29,data.gov.au,2,type,datatype
+29,data.gov.au,3,index,key
+29,data.gov.au,4,description,definition
+30,data.gov.au,0,Field name,name
+30,data.gov.au,1,Data type,datatype
+30,data.gov.au,2,Format/length/constraints,UNMAPPED
+30,data.gov.au,3,Description,definition
+31,data.sa.gov.au_data,0,,name
+31,data.sa.gov.au_data,1,,title
+32,data.glasgow.gov.uk,0,Field name,name
+32,data.glasgow.gov.uk,1,Datatype,datatype
+32,data.glasgow.gov.uk,2,Use,UNMAPPED
+32,data.glasgow.gov.uk,3,Data format,UNMAPPED
+32,data.glasgow.gov.uk,4,Field size,UNMAPPED
+32,data.glasgow.gov.uk,5,Description,definition
+32,data.glasgow.gov.uk,6,Example,examples
+32,data.glasgow.gov.uk,7,Null Value,UNMAPPED
+32,data.glasgow.gov.uk,8,Notes,notes
+33,data.sa.gov.au_data,0,,name
+33,data.sa.gov.au_data,1,,title
+34,data.sa.gov.au_data,0,,name
+34,data.sa.gov.au_data,1,,title
+35,data.sa.gov.au_data,0,,name
+35,data.sa.gov.au_data,1,,title
+36,data.qld.gov.au,0,Variable,name
+36,data.qld.gov.au,1,Description,definition
+36,data.qld.gov.au,2,Categories/values,datatype
+37,data.gov.uk,0,Dataset ID,UNMAPPED
+37,data.gov.uk,1,Dataset Name,dataset
+37,data.gov.uk,2,Field,name
+37,data.gov.uk,3,Type,datatype
+37,data.gov.uk,4,Mandatory or Optional requirement (MOR),nullable
+37,data.gov.uk,5,Field Description,definition
+37,data.gov.uk,6,Schema,schema
+37,data.gov.uk,7,LCC Mapping,UNMAPPED
+37,data.gov.uk,8,Schema Comments,UNMAPPED
+37,data.gov.uk,9,Schema Data Rules Comment,notes
+37,data.gov.uk,10,FormatReference,UNMAPPED
+37,data.gov.uk,11,Example,examples
+38,data.glasgow.gov.uk,0,Fieldname,name
+38,data.glasgow.gov.uk,1,description,definition
+38,data.glasgow.gov.uk,2,source,schema
+39,data.sa.gov.au_data,0,,name
+39,data.sa.gov.au_data,1,,title
+40,data.gov.uk,0,Dataset ID (DSID),UNMAPPED
+40,data.gov.uk,1,Dataset Name,dataset
+40,data.gov.uk,2,Field,name
+40,data.gov.uk,3,Type,datatype
+40,data.gov.uk,4,Mandatory or Optional requirement (MOR),nullable
+40,data.gov.uk,5,Field Description,definition
+40,data.gov.uk,6,Schema,schema
+40,data.gov.uk,7,LCC Mapping,UNMAPPED
+40,data.gov.uk,8,Schema Comments,UNMAPPED
+40,data.gov.uk,9,Schema Data Rules Comment,notes
+40,data.gov.uk,10,FormatReference,UNMAPPED
+40,data.gov.uk,11,Example,examples
+41,data.gov.uk,0,Dataset ID,UNMAPPED
+41,data.gov.uk,1,Dataset Name,dataset
+41,data.gov.uk,2,Field,name
+41,data.gov.uk,3,Type,datatype
+41,data.gov.uk,4,Mandatory or Optional requirement (MOR),nullable
+41,data.gov.uk,5,Field Description,definition
+41,data.gov.uk,6,Schema,schema
+41,data.gov.uk,7,LCC Mapping,UNMAPPED
+41,data.gov.uk,8,Schema Comments,UNMAPPED
+41,data.gov.uk,9,Schema Data Rules Comment,notes
+41,data.gov.uk,10,FormatReference,UNMAPPED
+41,data.gov.uk,11,Example,examples
+42,data.gov.uk,0,Dataset ID,UNMAPPED
+42,data.gov.uk,1,Dataset Name,dataset
+42,data.gov.uk,2,Field,name
+42,data.gov.uk,3,Type,datatype
+42,data.gov.uk,4,Mandatory or Optional requirement (MOR),nullable
+42,data.gov.uk,5,Field Description,definition
+42,data.gov.uk,6,Schema,schema
+42,data.gov.uk,7,LCC Mapping,UNMAPPED
+42,data.gov.uk,8,Schema Comments,UNMAPPED
+42,data.gov.uk,9,Schema Data Rules Comment,notes
+42,data.gov.uk,10,FormatReference,UNMAPPED
+42,data.gov.uk,11,Example,examples
+43,data.gov.uk,0,Dataset ID,UNMAPPED
+43,data.gov.uk,1,Dataset Name,dataset
+43,data.gov.uk,2,Field,name
+43,data.gov.uk,3,Type,datatype
+43,data.gov.uk,4,Mandatory or Optional requirement (MOR),nullable
+43,data.gov.uk,5,Field Description,definition
+43,data.gov.uk,6,Schema,schema
+43,data.gov.uk,7,LCC Mapping,UNMAPPED
+43,data.gov.uk,8,Schema Comments,UNMAPPED
+43,data.gov.uk,9,Schema Data Rules Comment,notes
+43,data.gov.uk,10,FormatReference,UNMAPPED
+43,data.gov.uk,11,Example,examples
+44,data.glasgow.gov.uk,0,Field name,name
+44,data.glasgow.gov.uk,1,Datatype,datatype
+44,data.glasgow.gov.uk,2,Use,UNMAPPED
+44,data.glasgow.gov.uk,3,Data format,UNMAPPED
+44,data.glasgow.gov.uk,4,Field size,UNMAPPED
+44,data.glasgow.gov.uk,5,Description,definition
+44,data.glasgow.gov.uk,6,Example,examples
+44,data.glasgow.gov.uk,7,Null Value,UNMAPPED
+44,data.glasgow.gov.uk,8,Notes,notes
+45,data.qld.gov.au,0,Variable,name
+45,data.qld.gov.au,1,Description,definition
+45,data.qld.gov.au,2,Values/Format,UNMAPPED
+46,open.canada.ca_data,0,COLUMN NAME,name
+46,open.canada.ca_data,1,FULL COLUMN NAME,title
+46,open.canada.ca_data,2,DESCRIPTION,definition
+46,open.canada.ca_data,3,DATA TYPE,datatype
+47,data.sa.gov.au_data,0,Field Name,name
+47,data.sa.gov.au_data,1,Description,definition
+48,data.gov.uk,0,Dataset ID,UNMAPPED
+48,data.gov.uk,1,Dataset Name,dataset
+48,data.gov.uk,2,Field,name
+48,data.gov.uk,3,Type,datatype
+48,data.gov.uk,4,Mandatory or Optional requirement (MOR),nullable
+48,data.gov.uk,5,Field Description,definition
+48,data.gov.uk,6,Schema,schema
+48,data.gov.uk,7,LCC Mapping,UNMAPPED
+48,data.gov.uk,8,Schema Comments,UNMAPPED
+48,data.gov.uk,9,Schema Data Rules Comment,notes
+48,data.gov.uk,10,FormatReference,UNMAPPED
+48,data.gov.uk,11,Example,examples
+49,data.gov.uk,0,Dataset ID,UNMAPPED
+49,data.gov.uk,1,Dataset Name,dataset
+49,data.gov.uk,2,Field,name
+49,data.gov.uk,3,Type,datatype
+49,data.gov.uk,4,Mandatory or Optional requirement (MOR),nullable
+49,data.gov.uk,5,Field Description,definition
+49,data.gov.uk,6,Schema,schema
+49,data.gov.uk,7,LCC Mapping,UNMAPPED
+49,data.gov.uk,8,Schema Comments,UNMAPPED
+49,data.gov.uk,9,Schema Data Rules Comment,notes
+49,data.gov.uk,10,FormatReference,UNMAPPED
+49,data.gov.uk,11,Example,examples
+50,data.glasgow.gov.uk,0,Field name,name
+50,data.glasgow.gov.uk,1,Datatype,datatype
+50,data.glasgow.gov.uk,2,Use,UNMAPPED
+50,data.glasgow.gov.uk,3,Data format,UNMAPPED
+50,data.glasgow.gov.uk,4,Field size,UNMAPPED
+50,data.glasgow.gov.uk,5,Description,definition
+50,data.glasgow.gov.uk,6,Example,examples
+50,data.glasgow.gov.uk,7,Null Value,UNMAPPED
+50,data.glasgow.gov.uk,8,Notes,UNMAPPED
