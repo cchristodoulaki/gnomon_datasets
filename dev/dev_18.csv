@@ -1,0 +1,9 @@
+Field Name,Description
+id,Unique ID of bike hiring location
+Location,Name of bike hiring location
+Address,Address of bike hiring location
+POINT_X,X coordinate
+POINT_Y,Y coordinate
+Operating Hours,Opening and closing hours of the hiring location
+Phone,Contact phone number
+Total No. of Bikes,Total number of bikes available for hire at the location

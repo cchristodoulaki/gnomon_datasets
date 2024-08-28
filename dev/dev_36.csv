@@ -1,0 +1,18 @@
+Variable,Description,Categories/values
+OBJECTID,System unique identifier,Numeric
+AdminAreaN,Locality name plus Local Government Area administrative name,Text
+Locality,Locality name,Text
+LGA_Name,Name of Local Government Area where the locality resides,Text
+LGA_Admin,Local Government Authority - administrative name,Text
+LOC_ALIAS_,Locality - alias name (one),Text
+LOC_ALIAS1,Locality - alias name (two),Text
+LOC_ALIA_1,Locality - alias name (three),Text
+Locality_I,Locality - unique identifier,Numeric
+LGA_ID,Local Government Area - unique identifier,Numeric
+Gazetted,Gazetted status of locality,GAZE = gazetted
+ORIG_FID,Record number,Numeric
+HSC_ID,Department of Housing and Public Works' Housing Service Centre - unique identifier,Numeric
+HSC,Department of Housing and Public Works' Housing Service Centre - name,Text
+HSG_ID,Department of Housing and Public Works' Housing Region - unique identifier,Numeric
+HSG,Department of Housing and Public Works' Housing Region - name,Text
+,blank cells,The value (blank) is used where there is no data

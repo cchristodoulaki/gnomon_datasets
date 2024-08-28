@@ -1,0 +1,11 @@
+,
+Application Number,Application Number
+Property Address,Property Address
+Description,Description of the work to be done
+Status,Status
+Applicant,Person/Organisation lodging application
+Lodged Date,Date lodged with Council
+,*NOTE this field appears as 00:00.0 in CSV format.  However if you click on the cell it shows the date.  If you reformat the column cells as 'Date' it will display correctly.
+Expiry Date,Date application expires with Council
+,*NOTE this field appears as 00:00.0 in CSV format.  However if you click on the cell it shows the date.  If you reformat the column cells as 'Date' it will display correctly.
+ID,Used to link to ID field in DAcurrent KML layer

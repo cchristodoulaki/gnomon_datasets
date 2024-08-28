@@ -1,0 +1,8 @@
+Field name,Datatype,Use,Data format,Field size,Description,Example,Null Value,Notes
+Data Zone,String,Identifier,,,The data zone is the key small-area statistical geography in Scotland.,S01003029,,
+Intermediate Geography Name,String,info,,,"aggregations of data zones within local authorities which contains between 2,500 and 6,000 people.",Carmunnock South,,
+All people in households,Integer,value,,,All people in households for each data zone,1093,,
+Up to 0.5 persons per room,Integer,value,,,number of people in households with 0.5 persons per room,503,,
+Over 0.5 and up to 1.0 persons per room,Integer,value,,,number of people in households with over 0.5 and up to 1.0 persons per room,543,,
+Over 1.0 and up to 1.5 persons per room,Integer,value,,,number of people in households with over 1.0 and up to 1.5 persons per room,23,,
+Over 1.5 persons per room,Integer,value,,,number of people in households with over 1.5 persons per room,24,,

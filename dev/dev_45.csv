@@ -1,0 +1,29 @@
+Variable,Description,Values/Format
+State,State/territory identifier,1. NSW
+,,2. Vic
+,,3. Qld
+,,4. SA
+,,5. WA
+,,6. Tas
+,,7. NT
+,,8. ACT
+Program,Program type,1. Public rental housing
+,,3. State owned and managed Indigenous housing
+App_Date,Date of application,dd/mm/yyyy
+App_Type,Waitlist applicant type,1. New applicant/household
+,,2. Transfer applicant/household
+App_Stat,Current status of application at 30 June,A. Allocated
+,,W. Waiting
+,,U. Unknown
+Grt_Need,Greatest need indicator,1. Yes
+,,2. No
+,,9. Not stated/inadequently described
+Grt_RSN,Greatest need reason,1. Homeless
+,,2. Life or safety at risk in accommodation
+,,3. Health condition aggravated by housing
+,,4. Housing inappropriate to needs
+,,5. Very high housing costs
+,,6. Other
+,,9. Not stated/inadequately described
+Grt_Date,Date when greatest need applied,dd/mm/yyyy
+,,na. not applicable

@@ -1,0 +1,20 @@
+Attribute,Attribute Description,Comment
+Study Title,Moggill Creek Flood Study,
+Creeks/Tributaries/Waterways,"Moggill Creek, Gold Creek, Gap Creek, McKay Brook, Savages Road Tributary",
+Year Commenced,2015,
+Year Completed,2016,
+Hydrology Model,URBS,
+Hydrology Date,2016,
+Hydraulic Date,2016,
+Rainfall Design,AR&R 1987,
+Hydraulic Model - 1D,ESTRY of TUFLOW,
+Hydraulic Model - 2D,TUFLOW,
+Model Projection,MGA Zone 56 (GDA94),
+ALS/LiDAR Date,2014,
+Survey Date,"1983, 1997, 2015",
+Floodplain Condition,"Existing , Ultimate (FPA Flood Corridor)",Floodplain Condition refers to the scenarios modelled as part of the flood study. Please refer to the Flood Study report for more details on each modelled scenario
+Flood Surfaces,"Existing Surfaces (H,D,DxV), Ultimate Surfaces (un-stretched)(H)","H,D and DxV refer to Height, Depth and Hazzard surfaces respectively. The provided Ultimate Scenario flood surfaces are un-stretched. An un-stretched flood surface does not represent the full extent of flooding. Please refer to the Flood Study report for more details "
+Design Events (%AEP),"50,20,10,5,2,1,0.5,0.2,0.05",
+Climate Change,"1%CC_2050,0.5%CC_2050,1%CC_2100,0.5%CC_2100,0.2%CC_2100",AEP%CC_YYYY refers to Climate Change Scenario for the % AEP flood event for Year YYYY. For more detail refer to Flood Study report
+LGA Name,Brisbane City Council (BCC),
+Lead Consultant,BCC,

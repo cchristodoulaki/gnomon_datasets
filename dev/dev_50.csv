@@ -1,0 +1,12 @@
+Field name,Datatype,Use,Data format,Field size,Description,Example,Null Value,Notes
+Electoral Ward Code,String,Identifier,,,code used to represent 2007 electoral ward in Glasgow,S13002650,,
+Ward Name,String,info,,,name of the electoral / multi member ward,Anderston/City Centre,,
+Sex/Age Band,String,info,,,Sex and Age Band of people counted in statistics,All people aged 3 and over:,,
+Age Bracket,String,info,,,age bracket of people counted in statistics,5 to 9,,
+All people aged 3 and over,Integer,Integer,,,All people aged 3 and over with languagge used at home per sex by age.,462,,
+English only,Integer,Integer,,,people whose language used at home is English only,223,,
+Gaelic,Integer,Integer,,,People whose language used at home is Gaelic,10,,
+Scots,Integer,Integer,,,People whose language used at home is Scots,6,,
+British Sign Language,Integer,Integer,,,People whose language used at home is British Sign Language,0,,
+Polish,Integer,Integer,,,People whose language used at home is Polish,9,,
+Other,Integer,Integer,,,People whose language used at home is Other language,214,,

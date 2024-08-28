@@ -1,0 +1,50 @@
+Variable,Description,Values/Format
+State,State/territory identifier,1. NSW
+,,2. Vic
+,,3. Qld
+,,4. SA
+,,5. WA
+,,6. Tas
+,,7. NT
+,,8. ACT
+Program,Program type,1. Public rental housing
+,,3. SOMIH
+Dt_Start,Date assistance commenced,dd/mm/yyyy
+Dt_End,Date assistance completed,dd/mm/yyyy
+,,na. not applicable
+NewAlloc,New allocation indicator (financial year),1. Yes
+,,2. No
+,,9. Not stated/inadequently described
+Transfer,Transfer indicator (financial year),1. Yes
+,,2. No
+,,9. Not stated/inadequently described
+Indig_H,Indigenous household (at 30 June),1. Yes
+,,2. No
+,,9. Not stated/inadequently described
+Dis_H,Disability indicator (at 30 June),1. Yes
+,,2. No
+,,9. Not stated/inadequently described
+Rnt_Chrg,Rent charged (weekly amount at 30 June),$$$$$.cc
+Rnt_Mrkt,Market rent value of dwelling (weekly amount at 30 June),$$$$$.cc
+Rebate,Rebated household indicator (at 30 June),1. Yes
+,,2. No
+RebatAmt,Rebate amount of assistance (weekly amount at 30 June) - generally the positive difference between market rent of dwelling and rent charged.,$$$$$.cc
+Inc_Gh,Income - gross (household weekly amount at 30 June),$$$$$.cc
+,,na. not available
+Inc_Ah,Income - assessable (household weekly amount at 30 June),$$$$$.cc
+,,na. not available
+App_Date,Date of application,dd/mm/yyyy
+,,na. not available
+Grt_Need,Greatest need indicator,1. Yes
+,,2. No
+,,9. Unknown
+Grt_Rsn,Greatest need reason,1. Homeless
+,,2. Life or safety at risk in accommodation
+,,3. Health condition aggravated by housing
+,,4. Housing inappropriate to needs
+,,5. Very high housing costs
+,,6. Other
+,,9. not applicable/not available
+Grt_Date,Date when greatest need applied,dd/mm/yyyy
+,,na. not applicable or not available
+Occs,Number of occupants in household (at 30 June),Numeric

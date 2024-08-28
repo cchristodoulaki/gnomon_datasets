@@ -1,0 +1,6 @@
+COLUMN NAME,FULL COLUMN NAME,DESCRIPTION,DATA TYPE
+BAND_NUMBER,Band Number,"A unique number (also referred to as the Band Number, Band Code, or Administrative Code) assigned to the First Nation by the Department",Text
+BAND_NAME,Band Name,The official departmental name of a band as defined within the Indian Act. This name is the First Nation's name as ratified by a Band Council Resolution (BCR),Text
+LONGITUDE,Longitude,Longitude in decimal degrees,Number
+LATITUDE,Latitude,Latitude in decimal degrees,Number
+COORD_SYS,Coordinate System,Coordinate system,Text

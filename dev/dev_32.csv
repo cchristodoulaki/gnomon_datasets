@@ -1,0 +1,10 @@
+Field name,Datatype,Use,Data format,Field size,Description,Example,Null Value,Notes
+DATAZONE,String,identifier,,,The data zone is the key small-area statistical geography in Scotland.,S01003028,,
+INTERMEDIATE GEOGRAPHY CODE,String,identifier,,,"code used to represent aggregations of data zones within local authorities which contains between 2,500 and 6,000 people.",S02000585,,
+INTERMEDIATE GEOGRAPHY NAME,String,info,,,"name used to represent aggregations of data zones within local authorities which contains between 2,500 and 6,000 people.",Glasgow City - Glenwood South,,
+MULTI-MEMBER WARD CODE,Integer,value,,,code used by Scottish Government to represent 2007 electoral ward in Glasgow,1701,,
+MULTI-MEMBER WARD NAME,String,info,,,name of the multi member ward,Glasgow City - Linn,,
+SCOTTISH PARLIAMENTARY CONSTITUENCY CODE,Integer,value,,,code used to represent Scottish parliamentary constituency,38,,
+SCOTTISH PARLIAMENTARY CONSTITUENCY NAME,String,info,,,name of the Scottish parliamentary constituency,Glasgow Cathcart,,
+LOCAL AUTHORITY CODE,Integer,value,,,local authority code,260,,
+LOCAL AUTHORITY NAME,String,info,,,local authority name,Glasgow City,,

@@ -1,0 +1,21 @@
+Dataset ID,Dataset Name,Field,Type,Mandatory or Optional requirement (MOR),Field Description,Schema,LCC Mapping,Schema Comments,Schema Data Rules Comment,FormatReference,Example
+19,School Admissions,Organisation Name,String,Optional,Name of the organisation that is the asset owner and if not the owner the main user of the asset.,LGA,,,Name of the Organisation's area coverage.,Name of the Organisation's area coverage.,Lincolnshire
+19,School Admissions,Organisation Code,String,Optional,A unique code to identify the asset owning/using organisation.   For LAs this can be the URI from Open Data Communities.,LGA,,,,http://opendatacommunities.org/def/concept/folders/themes/geography,Lincolnshire County Council:  http://opendatacommunities.org/doc/geography/administration/cty/E10000019
+19,School Admissions,Published Date,DateTime,Optional,Date at which the information provided is true.,LGA,,,Include this field to show the publication date of the dataset (ie. the date on which the dataset's information is true).,https://www.w3.org/TR/NOTE-datetime,YYYY-MM-DDThh:mm:ss      eg:  2017-02-15T00:00:00
+19,School Admissions,Duration From,DateTime,Optional,"Dataset time period start, or start of accounting/reporting period.  DurationFrom will always include a Time of 00:00:00.  In this Dataset, DurationFrom shows National Offer date for the SchoolType",LGA,,,"Dataset time period start, or start of accounting/reporting period.  DurationFrom will always include a Time of 00:00:00.",http://calendars.wikia.com/wiki/ISO_8601,YYYY-MM-DDThh:mm:ss      eg:  2017-04-01T00:00:00
+19,School Admissions,Duration To,DateTime,Optional,"Dataset time period end, or end of accounting/reporting period.  In this Dataset, DurationTo shows National Offer date for the SchoolType",LGA,,,"Dataset time period end, or end of accounting/reporting period.",http://calendars.wikia.com/wiki/ISO_8601,YYYY-MM-DDThh:mm:ss      eg:  2017-06-30T23:59:59
+19,School Admissions,Latest Data,Boolean,Optional,TRUE where the data is the latest for the indicator.  Else blank.,LCC,,,,,TRUE
+19,School Admissions,OffersOrAdmissions,String,Mandatory,States whether the data refers to Offers or Admissions,LCC,,,,,
+19,School Admissions,IntakeDescription,String,Mandatory,"Indicates the year of intake, for example, Year 3 Intake, Reception Intake, Year 7 Intake",LCC,,,,,
+19,School Admissions,Month,DateTime,Mandatory,Month when the Intake occurs,LCC,,,,http://calendars.wikia.com/wiki/ISO_8601,2017-09
+19,School Admissions,Year,DateTime,Mandatory,Year when the Intake occurs,LCC,,,,http://calendars.wikia.com/wiki/ISO_8601,2017
+19,School Admissions,SchoolType,String,Mandatory,"School type, eg Junior, Primary, Secondary",LCC,,,,,
+19,School Admissions,DfE Code,String,Mandatory,Dept for Education Code for the school,LCC,,,,,
+19,School Admissions,School Name,String,Mandatory,Name of the school,LCC,,,,,
+19,School Admissions,Preference1,Number,Mandatory,Number of offers where the school was a first preference,LCC,,,,,
+19,School Admissions,Preference2,Number,Mandatory,Number of offers where the school was a second preference,LCC,,,,,
+19,School Admissions,Preference3,Number,Mandatory,Number of offers where the school was a third preference,LCC,,,,,
+19,School Admissions,Preference4,Number,Mandatory,Number of offers where the school was a fourth preference,LCC,,,,,
+19,School Admissions,Total Preferences,Number,Mandatory,Total number of preferences 1-4 offered for this school,LCC,,,,,
+19,School Admissions,Pupil Admission Number (PAN),Number,Mandatory,"Pupil Admission Number (PAN), the school's maximum capacity for number of pupils in the intake",LCC,,,,,
+19,School Admissions,Free Places,Number,Mandatory,"School places left after National Offer Day, that is the school's PAN minus the total number of offers",LCC,,,,,

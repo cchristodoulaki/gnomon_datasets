@@ -1,0 +1,28 @@
+Dataset ID (DSID),Dataset Name,Field,Type,Mandatory or Optional requirement (MOR),Field Description,Schema,LCC Mapping,Schema Comments,Schema Data Rules Comment,FormatReference,Example
+2,Land and Building Assets,Organisation Name,String,Optional,Name of the organisation that is the asset owner and if not the owner the main user of the asset.,LGA,,,Name of the Organisation's area coverage. Would be beneficial if added to all the datasets,Name of the Organisation's area coverage.,Lincolnshire
+2,Land and Building Assets,Organisation Code,String,Optional,A unique code to identify the asset owning/using organisation.   For LAs this can be the URI from Open Data Communities.,LGA,,,,http://opendatacommunities.org/def/concept/folders/themes/geography,Lincolnshire County Council:  http://opendatacommunities.org/doc/geography/administration/cty/E10000019
+2,Land and Building Assets,Published Date,DateTime,Optional,Date at which the information provided is true.  This field shows the Publication date. It represents the Applicable Date in LGA Schema.,LGA,,,Include this field to show the publication date of the dataset (ie. the date on which the dataset's information is true).,https://www.w3.org/TR/NOTE-datetime,YYYY-MM-DDThh:mm:ss      eg:  2017-02-15T00:00:00
+2,Land and Building Assets,Latest Data,Boolean,Optional,TRUE where the data is the latest for the indicator.  Else blank.,LCC,,,,,TRUE
+2,Land and Building Assets,Duration From,DateTime,Optional,"Dataset time period start, or start of accounting/reporting period.  DurationFrom will always include a Time of 00:00:00.",LGA,,,"Dataset time period start, or start of accounting/reporting period.  DurationFrom will always include a Time of 00:00:00.",http://calendars.wikia.com/wiki/ISO_8601,YYYY-MM-DDThh:mm:ss      eg:  2017-04-01T00:00:00
+2,Land and Building Assets,Duration To,DateTime,Optional,"Dataset time period end, or end of accounting/reporting period.",LGA,,,"Dataset time period end, or end of accounting/reporting period.",http://calendars.wikia.com/wiki/ISO_8601,YYYY-MM-DDThh:mm:ss      eg:  2017-06-30T23:59:59
+2,Land and Building Assets,Unique Property Reference Number,Number,Mandatory,Unique code describing the asset where it is a property,LGA,UPRN,,National UPRN,,
+2,Land and Building Assets,Unique Asset Identity,String,Mandatory,"Local reference identifier used by the local body, sometimes known as local name or building block.",LGA,Site Ref,,,,
+2,Land and Building Assets,Property Name,String,Mandatory,Common title or name used for the asset,LGA,Property,,,,
+2,Land and Building Assets,Property Number,String,Mandatory,Number of the land or building,LGA,,,,,
+2,Land and Building Assets,Street Name,String,Mandatory,Street name of the property address,LGA,,,,,
+2,Land and Building Assets,Locality,String,Optional,Locality name of the property address,LCC,,LCC additional field,,,
+2,Land and Building Assets,Post Town,String,Mandatory,Postal town of the property address,LGA,,,,,
+2,Land and Building Assets,Post Code,String,Mandatory,UK postcode of the property,LGA,,,,,
+2,Land and Building Assets,Coordinate Reference System,String,Mandatory,Indicates which coordinate reference system the geographic coordinates will refer to,LGA,,,,,
+2,Land and Building Assets,GeoX,Number,Mandatory,Longitude or east grid reference for centroid of application boundary. To enable the asset to be plotted on a map,LGA,Easting,,,,
+2,Land and Building Assets,GeoY,Number,Mandatory,Latitude or north grid reference for centroid of application boundary. To enable the asset to be plotted on a map,LGA,Northing,,,,
+2,Land and Building Assets,GeoPoint Licensing URL,URL,Optional,URL of any page that describes any licensing restrictions on using the northing and easting and UPRN values.,LGA,,,,,https://www.ordnancesurvey.co.uk/about/governance/policies/addressbase-uprn.html
+2,Land and Building Assets,Tenure Type,String,Mandatory,Whether the local authority owns the freehold or a lease for the asset,LGA,Tenure,,,Freehold|Leasehold|Other,Freehold
+2,Land and Building Assets,Registered,String,Optional,"Whether the site is fully registered with the Land Registry, part registered or not at all",LCC,Registered,LCC additional field,,,"Yes (full), Yes (partial), No"
+2,Land and Building Assets,SizeBuilding,Number,Recommended,Internal area of a building asset in m2,LGA,Gross Internal Area (sq m),,,,
+2,Land and Building Assets,SizeLand,Number,Recommended,Area of a land asset in hectares,LGA,Site Area,,,,
+2,Land and Building Assets,Purpose,String,Recommended,Reason for holding asset,LGA,Property Type,,,,Library Services
+2,Land and Building Assets,Committee,String,Optional,Which County Council committee the site comes under,LCC,Committee,LCC additional field,,,Finance & Public Protection
+2,Land and Building Assets,Listed Grade,String,Optional,"If the building has Listed status, which listed grade ",LCC,Listed Grade,LCC additional field,,"Grade if graded, else blank",Grade 2
+2,Land and Building Assets,Conservation Area,Boolean,Optional,Does the site reside within a conservation area,LCC,Conservation Area,LCC additional field,,Yes or No,
+2,Land and Building Assets,Ancient Monument,Boolean,Optional,Does the site contain an Ancient Monument,LCC,Ancient Monument,LCC additional field,,Yes or No,

@@ -1,0 +1,8 @@
+Field name,Datatype,Use,Data format,Field size,Description,Example,Null Value,Notes
+Data Zone,String,Identifier,,,The data zone is the key small-area statistical geography in Scotland.,S01003026,,
+All people,Integer,value,,,total number of people whose filled the questionnaire regarding the state of their health per multi-member ward,848,,
+Very good health,Integer,value,,,number of people who stated they have very good health per multi-member ward,450,,
+Good health,Integer,value,,,number of people who stated they have good health per multi-member ward,208,,
+Fair health,Integer,value,,,number of people who stated they have fair health per multi-member ward,124,,
+Bad health,Integer,value,,,number of people who stated they have bad health per multi-member ward,56,,
+Very bad health,Integer,value,,,number of people who stated they have very bad health per multi-member ward,10,,

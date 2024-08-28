@@ -1,0 +1,166 @@
+resource_name,field_id,type,index,description
+Data Dictionary,,,,Describes the tables (resources) of the NPI dataset. Different formats with the same name contain the same data.
+Data Dictionary,resource_name,text,Primary Key,Name of the table.
+Data Dictionary,field_id,text,Primary Key,Name of the column - must be unique within a table (resource_name). Must be null for a row containing a table description.
+Data Dictionary,type,text,,PostgreSQL data type for the column. Must be null for a row containing a table description.
+Data Dictionary,index,text,,May contain 'Primary Key' to indicate that the column forms part of a primary key for the table. May contain 'Index' to indicate that the column is indexed to improve performance of some queries.
+Data Dictionary,description,text,,Description for a table or column. May be null. May use Markdown for formatting.
+ANZSIC 2006,,,,Full list of [ANZSIC 2006](http://www.abs.gov.au/ANZSIC) classes. Includes columns indicating whether an industry is included in NPI reporting and the number of facilities which have reported for each industry.Values in the `npi_listed` column are based on the [list of industries required to report to the NPI](http://www.npi.gov.au/reporting/industry-reporting-materials/anzsic-code-list).
+ANZSIC 2006,division_code,text,,"Division Codes are a single letter, 'A' to 'S'"
+ANZSIC 2006,division_name,text,,
+ANZSIC 2006,subdivision_code,text,,"Sub-division codes are two digit numbers, which may include a leading zero."
+ANZSIC 2006,subdivision_name,text,,
+ANZSIC 2006,group_code,text,,"Group codes are three digit numbers, which may include a leading zero."
+ANZSIC 2006,group_name,text,,
+ANZSIC 2006,class_code,text,Primary Key,"Class codes are four digit numbers, which may include a leading zero."
+ANZSIC 2006,class_name,text,,
+ANZSIC 2006,npi_listed,bool,Index,True if the ANZSIC class is included in the [list of ANZSIC codes required to report to the NPI](http://www.npi.gov.au/reporting/industry-reporting-materials/anzsic-code-list)
+ANZSIC 2006,facilities_primary_class,int,,Number of NPI facilities that have reported the ANZSIC code as their primary class.
+ANZSIC 2006,facilities_secondary_class,int,,Number of NPI facilities that have reported the ANZSIC code as their secondary class.
+ANZSIC 2006,earliest_report_year,text,,The earliest reporting year for which a facility report was received for the ANZSIC code.
+ANZSIC 2006,latest_report_year,text,,The latest year for which a facility report was received for the ANZSIC code.
+Emissions,,,,"Annual emissions to air, water, land reported by NPI facilities."
+Emissions,report_id,int,Primary Key,Identifies the annual facility report which contains the emission estimates.
+Emissions,report_year,text,Index,The reporting year in which the emission was reported.
+Emissions,facility_id,int,Index,Identifies the facility which reported the emissions.
+Emissions,jurisdiction_code,text,Index,Identifies the jurisdiction which regulates NPI reporting for the facility.
+Emissions,jurisdiction_facility_id,text,,The identifier used by the jurisdiction which regulates the facility.
+Emissions,facility_name,text,Index,"Facility name at the time indicated by the report year. May be different from the facility name in the Facilities table, which is the latest name."
+Emissions,registered_business_name,text,Index,"Registered business name of the facility's operator at the time indicated by the report year. May be different from the registered business name in the Facilities table, which is the latest name."
+Emissions,primary_anzsic_class_code,text,Index,The primary ANZSIC class code which describes the main activity at a facility.
+Emissions,primary_anzsic_class_name,text,,The primary ANZSIC class name which describes the main activity at a facility.
+Emissions,substance_id,int,Primary Key,Identifier for the substance emitted.
+Emissions,substance_sort_order,int,,"Sorting order of the substance emitted as used in the NPI legislation, the National Environment Protection (National Pollutant Inventory) Measure 1998."
+Emissions,substance_name,text,,Name of the substance emitted.
+Emissions,air_point_emission_kg,float,,Air emission amount in kilograms from point sources
+Emissions,air_point_eet,text,,Encoded Emission Estimation Techniques for air emissions from point sources* 1=Mass Balance* 2=Engineering Calculations* 3=Direct Measurement* 4=Emission Factors* 5=Approved Alternative
+Emissions,air_fugitive_emission_kg,float,,Air emission amount in kilograms from fugitive sources
+Emissions,air_fugitive_eet,text,,Encoded Emission Estimation Techniques for air emissions from fugitive sources* 1=Mass Balance* 2=Engineering Calculations* 3=Direct Measurement* 4=Emission Factors* 5=Approved Alternative
+Emissions,air_total_emission_kg,float,,Air emission amount in kilograms from all sources (point + fugitive). Emission estimation techniques for this amount are in air_point_eet and/or air_fugitive_eet.
+Emissions,water_emission_kg,float,,Water emission amount in kilograms 
+Emissions,water_eet,text,,Encoded Emission Estimation Techniques for water emissions* 1=Mass Balance* 2=Engineering Calculations* 3=Direct Measurement* 4=Emission Factors* 5=Approved Alternative
+Emissions,land_emission_kg,float,,Land emission amount in kilograms
+Emissions,land_eet,text,,Encoded Emission Estimation Techniques for land emissions* 1=Mass Balance* 2=Engineering Calculations* 3=Direct Measurement* 4=Emission Factors* 5=Approved Alternative
+Emissions,suburb,text,,Location of the facility which reported the emissions.
+Emissions,state,text,Index,Location of the facility which reported the emissions.
+Emissions,postcode,text,,Location of the facility which reported the emissions.
+Emissions,latitude,float,,Location of the facility which reported the emissions.
+Emissions,longitude,float,,Location of the facility which reported the emissions.
+Emission Reduction Techniques,,,,Pollution control devices and cleaner production activities reported by NPI facilities.
+Emission Reduction Techniques,report_id,int,Primary Key,Identifies the annual facility report which contains the emission reduction technique data.
+Emission Reduction Techniques,report_year,text,Index,The reporting year in which the emission reduction technique was reported.
+Emission Reduction Techniques,facility_id,int,Index,Identifies the facility which reported the emission reduction technique.
+Emission Reduction Techniques,jurisdiction_code,text,Index,Identifies the jurisdiction which regulates NPI reporting for the facility.
+Emission Reduction Techniques,jurisdiction_facility_id,text,,The identifier used by the jurisdiction which regulates the facility.
+Emission Reduction Techniques,facility_name,text,,"Facility name at the time indicated by the report year. May be different from the facility name in the Facilities table, which is the latest name."
+Emission Reduction Techniques,registered_business_name,text,,"Registered business name of the facility's operator at the time indicated by the report year. May be different from the registered business name in the Facilities table, which is the latest name."
+Emission Reduction Techniques,primary_anzsic_class_code,text,,The primary ANZSIC class code which describes the main activity at a facility.
+Emission Reduction Techniques,primary_anzsic_class_name,text,,The primary ANZSIC class name which describes the main activity at a facility.
+Emission Reduction Techniques,reduction_type,text,,The type of emission reduction technique ('Pollution Control Devices' or 'Cleaner Production Activities')
+Emission Reduction Techniques,reduction_technique_id,int,Primary Key,Identifies the emission reduction technique used.
+Emission Reduction Techniques,reduction_technique_name,text,,Names the emission reduction technique used.
+Emission Reduction Techniques,year_installed,text,,The year that a pollution control device was installed. Is null for all cleaner production activities.
+Emission Reduction Techniques,comment_by_facility,text,,The comment reported by a facility to explain the emission reduction technique.
+Facilities,,,,"Names, locations and primary ANZSIC 2006 classification of NPI facilities."
+Facilities,facility_id,int,Primary Key,Unique identifier for a facility.
+Facilities,jurisdiction_code,text,Index,"Abbreviation for the jurisdiction which regulates NPI reporting for the facility: ACT, COM, NT, NSW, QLD, SA, TAS, VIC, WA. COM = Commonwealth and is only used for facilities operated by the Department of Defence. All other facilities operate under state or territory jurisdiction."
+Facilities,jurisdiction_facility_id,text,Index,Identifier used by the jurisdiction which regulates the facility.
+Facilities,registered_business_name,text,Index,Latest reported registered business name of the facility's operator.
+Facilities,facility_name,text,Index,Latest reported facility name.
+Facilities,abn,text,,The facility operator's latest reported Australian Business Number (ABN) as registered with the Australian Tax Office.
+Facilities,acn,text,,The facility operator's latest reported Australian Company Number (ACN) as registered with the Australian Securities and Investments Commission.
+Facilities,street_address,text,,Location of the facility.
+Facilities,suburb,text,,Location of the facility.
+Facilities,state,text,Index,Location of the facility.
+Facilities,postcode,text,,Location of the facility.
+Facilities,latitude,float,,Location of the facility.
+Facilities,longitude,float,,Location of the facility.
+Facilities,primary_anzsic_class_code,text,Index,"ANZSIC 2006 class code which describes the facility's main activity. Some codes contain leading zeros. Facilities may also have secondary ANZSIC classes - see ""Facility Secondary ANZSICs"" table."
+Facilities,primary_anzsic_class_name,text,,"ANZSIC 2006 class name which describes the facility's main activity. Some codes contain leading zeros. Facilities may also have secondary ANZSIC classes - see ""Facility Secondary ANZSICs"" table."
+Facilities,main_activities,text,,Free text description of activities conducted at the facility.
+Facilities,facility_website,text,,URL for a website page managed by the facility's operator.
+Facilities,first_report_year,text,,First reporting year for which a report was received for a facility.
+Facilities,latest_report_year,text,,Latest NPI reporting year for which a report was received for a facility.
+Facilities,latest_report_id,int,,Identifies the latest report received for a facility.
+Facilities,latest_report_url,text,,URL for the latest report for a facility on the NPI website.
+Facilities,reports,int,,Number of NPI reports received for a facility.
+Facility Secondary ANZSICs,,,,Ids of facilities that are described with two or more ANZSIC classes.
+Facility Secondary ANZSICs,facility_id,int,Primary Key,Identifies the facility with the secondary ANZSIC.
+Facility Secondary ANZSICs,jurisdiction_code,text,,Identifies the jurisdiction which regulates NPI reporting for the facility.
+Facility Secondary ANZSICs,jurisdiction_facility_id,text,,Identifier used by the jurisdiction which regulates the facility.
+Facility Secondary ANZSICs,anzsic_class_code,text,Primary Key,The ANZSIC class code used as the facility's secondary ANZSIC.
+Facility Secondary ANZSICs,anzsic_class_name,text,,The ANZSIC class name used as the facility's secondary ANZSIC.
+Reports,,,,Annual facility reports.
+Reports,report_id,int,Primary Key,Unique identifier for a report.
+Reports,report_year,text,Index,"The reporting year for a report, for example 2013/2014."
+Reports,facility_id,int,Index,Identifies the facility which submitted the report.
+Reports,jurisdiction_code,text,Index,Identifies the jurisdiction which regulates NPI reporting for the facility.
+Reports,jurisdiction_facility_id,text,Index,Identifier used by the jurisdiction which regulates the facility.
+Reports,registered_business_name,text,Index,"Registered business name of the facility's operator at the time indicated by the report year. May be different from the registered business name in the Facilities table, which is the latest name."
+Reports,facility_name,text,Index,"Facility name at the time indicated by the report year. May be different from the facility name in the Facilities table, which is the latest name."
+Reports,abn,text,,The facility operator's Australian Business Number (ABN) as recorded in the Australian Business Register at the time indicated by the data_end date.
+Reports,acn,text,,The facility operator's Australian Company Number (ACN) as registered with the Australian Securities and Investments Commission at the time indicated by the data_end date.
+Reports,primary_anzsic_class_code,text,Index,The primary ANZSIC class code which describes the main activity at a facility.
+Reports,primary_anzsic_class_name,text,,The primary ANZSIC class name which describes the main activity at a facility.
+Reports,data_start,date,,Start date for a facility's reported emissions and transfers data.
+Reports,data_end,date,,End date for a facility's reported emissions and transfers data. Usually 1 year after the start date.
+Reports,employees,int,,The number of employees who worked at a facility during a reporting period.
+Reports,public_statement,text,,Free text statement from the operator of a facility. Can provide additional context for a report.
+Reports,first_published,date,,When the report was first publicly released.
+Reports,last_updated,date,,When the published report was last updated.
+Reports,reporting_threshold_exceeded,bool,,True if the facility exceeded any NPI reporting threshold during the reporting period.
+Reports,report_url,text,,URL for the report on the NPI website.
+Reports,suburb,text,,Location of the facility which submitted the report.
+Reports,state,text,Index,Location of the facility which submitted the report.
+Reports,postcode,text,,Location of the facility which submitted the report.
+Reports,latitude,float,,Location of the facility which submitted the report.
+Reports,longitude,float,,Location of the facility which submitted the report.
+Substances,,,,"The 93 NPI substances, their reporting thresholds, and first year of reporting."
+Substances,substance_id,int,Primary Key,Unique identifier for a substance.
+Substances,sort_order,int,,"Sorting order of the substance name as used in the NPI legislation, the National Environment Protection (National Pollutant Inventory) Measure 1998."
+Substances,substance_name,text,,Substance name as listed in the NPI legislation.
+Substances,cas_registry_numbers,text,,Comma separated list of identifiers of related entries in the Chemical Abstracts Service Registry
+Substances,cat1,bool,,True if emissions and transfers of a substance are reportable under the Category 1 substance usage threshold.
+Substances,cat1a,bool,,True if emissions and transfers of a substance are reportable under the Category 1a substance usage threshold.
+Substances,cat1b,bool,,True if emissions and transfers of a substance are reportable under the Category 1b substance usage threshold.
+Substances,cat2a,bool,,True if emissions of a substance are reportable under the Category 2a fuel usage threshold.
+Substances,cat2b,bool,,True if emissions of a substance are reportable under the Category 2b fuel usage threshold.
+Substances,cat3,bool,,True if emissions and transfers of a substance are reportable under the Category 3 emission threshold.
+Substances,voc,bool,,True if the substance is classified as a Volatile Organic Compound that may contribute to photochemical formation of ozone.
+Substances,c1_substance_use_threshold_kg,int,,"Reporting threshold amount (in kilograms) for Category 1, 1a, and 1b substances. If a facility uses, processes, or emits more than this amount of a substance in a reporting period, its emissions and transfers of the substance must be reported."
+Substances,c2_fuel_use_threshold_kg,int,,"Reporting threshold amount (in kilograms) for Category 2a and 2b substances. If a facility burns more than this amount of fuel in a reporting period, its emissions for must be reported."
+Substances,c2a_hour_fuel_use_threshold_kg,int,,"Reporting threshold amount (in kilograms) for Category 2a substances. If a facility burns more than this amount in any one hour of a reporting period, it must report emissions of this substance for the whole period."
+Substances,c3_emissions_threshold_kg,int,,"Reporting threshold amount (in kilograms) for Category 3 substances. If a facility emits more than this amount in a reporting period, it must report emissions and transfers of all Category 3 substances."
+Substances,emissions_to_air,bool,,True if air emissions of this substance are reportable.
+Substances,emissions_to_water,bool,,True if water emissions of this substance are reportable.
+Substances,emissions_to_land,bool,,True if land emissions of this substance are reportable.
+Substances,fact_sheet_url,text,,Web address for general information about this substance on the NPI website.
+Substances,first_reporting_year,text,,First reporting year that facilities were required to report emissions or transfers of a substance in their facility reports (if thresholds were exceeded).
+Transfers,,,,Annual waste transfers of NPI substances reported by facilities.
+Transfers,report_id,int,Primary Key,Identifies the annual facility report which contains the transfer estimate.
+Transfers,report_year,text,Index,The reporting year in which the transfer was reported.
+Transfers,facility_id,int,Index,Identifies the facility which reported the transfer.
+Transfers,jurisdiction_code,text,Index,Identifies the jurisdiction which regulates NPI reporting for the facility.
+Transfers,jurisdiction_facility_id,text,Index,The identifier used by the jurisdiction which regulates the facility.
+Transfers,facility_name,text,Index,"Facility name at the time indicated by the report year. May be different from the facility name in the Facilities table, which is the latest name."
+Transfers,registered_business_name,text,Index,"Registered business name of the facility's operator at the time indicated by the report year. May be different from the registered business name in the Facilities table, which is the latest name."
+Transfers,primary_anzsic_class_code,text,Index,The primary ANZSIC class code which describes the main activity at a facility.
+Transfers,primary_anzsic_class_name,text,,The primary ANZSIC class name which describes the main activity at a facility.
+Transfers,substance_id,int,Primary Key,Identifier for the substance emitted.
+Transfers,substance_sort_order,int,,"Sorting order of the substance emitted as used in the NPI legislation, the National Environment Protection (National Pollutant Inventory) Measure 1998."
+Transfers,substance_name,text,,Name of the substance emitted.
+Transfers,transfer_destination_id,int,Primary Key,Identifies the type of transfer destination.
+Transfers,transfer_destination_name,text,,Names the type of transfer destination.
+Transfers,transfer_destination_mandatory,bool,,"True if transfers to this destination must be reported when a facility exceeds thresholds for Category 1, 1b, 3 substances."
+Transfers,transfer_amount_kg,float,,Amount in kilograms which was transferred to the destination.
+Transfers,transfer_estimation_technique,text,,Encoded Transfer Estimation Techniques used to produce a reported transfer amount.* 1=Mass Balance* 2=Engineering Calculations* 3=Direct Measurement* 4=Transfer Factors* 5=Approved Alternative
+Transfers,comment_by_facility,text,,The facility operator's comment about a transfer.
+Transfers,suburb,text,,Location of the facility which reported the transfer.
+Transfers,state,text,Index,Location of the facility which reported the transfer.
+Transfers,postcode,text,,Location of the facility which reported the transfer.
+Transfers,latitude,float,,Location of the facility which reported the transfer.
+Transfers,longitude,float,,Location of the facility which reported the transfer.
+Transfer Destinations,,,,Listing of transfer destination categories and whether reporting of transfers to a destination is mandatory or voluntary.
+Transfer Destinations,transfer_destination_id,int,Primary Key,Unique identifier for a transfer destination category.
+Transfer Destinations,transfer_destination_name,text,,The name of a transfer destination category.
+Transfer Destinations,transfer_destination_mandatory,bool,,"True if substance transfers to a destination must be reported when a facility exceeds thresholds for Category 1, 1b, 3 substances. False if transfers reporting to a destination is voluntary."

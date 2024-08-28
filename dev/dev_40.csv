@@ -1,0 +1,19 @@
+Dataset ID (DSID),Dataset Name,Field,Type,Mandatory or Optional requirement (MOR),Field Description,Schema,LCC Mapping,Schema Comments,Schema Data Rules Comment,FormatReference,Example
+49,MembersAllowances,Organisation Label,String,Optional,Name of the organisation that is the asset owner and if not the owner the main user of the asset.,LGA,,,Name of the Organisation's area coverage,,Lincolnshire
+49,MembersAllowances,Organisation URI,String,Optional,A unique code to identify the asset owning/using organisation.   For LAs this can be the URI from Open Data Communities.,LGA,,,URI weblink for the Organisation,http://opendatacommunities.org/def/concept/folders/themes/geography,Lincolnshire County Council:  http://opendatacommunities.org/doc/geography/administration/cty/E10000019
+49,MembersAllowances,Published Date,DateTime,Optional,Date at which the information provided is true.  This field contains the publication date.,LGA,,,Include this field to show the publication date of the dataset (ie. the date on which the dataset's information is true).,https://www.w3.org/TR/NOTE-datetime,YYYY-MM-DDThh:mm:ss      eg:  2017-02-15T00:00:00
+49,MembersAllowances,Latest Data,Boolean,Mandatory,TRUE where the data is the latest for the indicator.  Else blank,LCC,,,,,
+49,MembersAllowances,Duration From,DateTime,Optional,"Dataset time period start, or start of accounting/reporting period.  DurationFrom will always include a Time of 00:00:00.",LGA,,,"Dataset time period start, or start of accounting/reporting period.  DurationFrom will always include a Time of 00:00:00.",http://calendars.wikia.com/wiki/ISO_8601,YYYY-MM-DDThh:mm:ss      eg:  2017-04-01T00:00:00
+49,MembersAllowances,Duration To,DateTime,Optional,"Dataset time period end, or end of accounting/reporting period.  DurationTo will always include a Time of 23:59:59",LGA,,,"Dataset time period end, or end of accounting/reporting period.  DurationTo will always include a Time of 23:59:59",http://calendars.wikia.com/wiki/ISO_8601,YYYY-MM-DDThh:mm:ss      eg:  2017-06-30T23:59:59
+49,MembersAllowances,Reporting Period Type,String,Mandatory,"The type of time period the data record covers (eg. Financial Year, Calendar Year, Month, Quarter)",LCC,,,"The type of time period the data record covers (eg. Financial Year, Calendar Year, Month, Quarter)",,"eg. Financial Year, Calendar Year, Month, Quarter"
+49,MembersAllowances,Financial Year,DateTime,Mandatory,Period of data,LCC,,,,http://calendars.wikia.com/wiki/ISO_8601,2017-09
+49,MembersAllowances,Members Name,String,Mandatory,Name of Elected Councillor,LCC,,,,,SMITH J
+49,MembersAllowances,Political Party,String,Mandatory,Political Party of Elected Councillor,LCC,,,,,IFE
+49,MembersAllowances,Basic Allowance,Number,Mandatory,Basic Allowance for each Elected Councillor,LCC,,,,,10322.28
+49,MembersAllowances,Special Responsibility,Number,Mandatory,Special Responsibility for each Elected Councillor,LCC,,,,,5110.08
+49,MembersAllowances,Travel Expenses,Number,Mandatory,Travel Expenses for each Elected Councillor,LCC,,,,,2334.15
+49,MembersAllowances,Subsistence Taxable,Number,Mandatory,Subsistence Taxable for each Elected Councillor,LCC,,,,,103.8
+49,MembersAllowances,Subsistence Non Taxable,Number,Mandatory,Subsistence Non-Taxable for each Elected Councillor,LCC,,,,,28.84
+49,MembersAllowances,Fares,Number,Mandatory,Fares for each Elected Councillor,LCC,,,,,18.9
+49,MembersAllowances,Childcare And Dependant Carers,Number,Mandatory,Childcare and Dependent Carers for each Elected Councillor,LCC,,,,,0
+49,MembersAllowances,Total,Number,Mandatory,Total Claimed for each Elected Councillor,LCC,,,,,17918.05

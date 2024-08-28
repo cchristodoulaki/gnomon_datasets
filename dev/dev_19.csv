@@ -1,0 +1,13 @@
+Field name,Datatype,Use,Data format,Field size,Description,Example,Null Value,Notes
+Data Zone,String,Identifier,,,The data zone is the key small-area statistical geography in Scotland.,S01003025,,
+Intermediate Geography Name,String,info,,,"aggregations of data zones within local authorities which contains between 2,500 and 6,000 people.",Carmunnock South,,
+Ethnic Group,String,info,,,ethnic group of the people in the statistics,All people,,
+All people,Integer,value,,,All people by age of arrival in the UK by various ethnic groups and data zones,857,,
+Born in the UK,Integer,value,,,All people born in the UK by various ethnic groups and data zones,825,,
+Born outside the UK: Total,Integer,value,,,All people born outside the UK by various ethnic groups and data zones,32,,
+Born outside the UK: Arrived in the UK aged 0 to 15,Integer,value,,,All people born outside the UK who arrived in the UK aged 0 to 15 by various ethnic groups and data zones,9,,
+Born outside the UK: Arrived in the UK aged 16 to 24,Integer,value,,,All people born outside the UK who arrived in the UK aged 16 to 24 by various ethnic groups and data zones,16,,
+Born outside the UK: Arrived in the UK aged 25 to 34,Integer,value,,,All people born outside the UK who arrived in the UK aged 25 to 34 by various ethnic groups and data zones,3,,
+Born outside the UK: Arrived in the UK aged 35 to 49,Integer,value,,,All people born outside the UK who arrived in the UK aged 35 to 49 by various ethnic groups and data zones,4,,
+Born outside the UK: Arrived in the UK aged 50 to 64,Integer,value,,,All people born outside the UK who arrived in the UK aged 50 to 64 by various ethnic groups and data zones,0,,
+Born outside the UK: Arrived in the UK aged 65 and over,Integer,value,,,All people born outside the UK who arrived in the UK aged 65 and over by various ethnic groups and data zones,0,,
