@@ -1,0 +1,6 @@
+Field Name,Description
+Road Name,Location name of drinking fountain
+Asset ID,Unique identifier for drinking fountain asset
+Easting,X Coordinate of the drinking fountain
+Northing,Y Coordinate of the drinking fountain
+Fountain Type,"Type of monument e.g. curved, memorial, post"

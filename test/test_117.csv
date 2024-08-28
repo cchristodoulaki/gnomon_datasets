@@ -1,0 +1,10 @@
+Field Name,Description
+Animal Reference,Unique ID for dog registration record
+Animal Name,Name of dog
+Breed,Breed of dog
+Period,Year that the registrations applied to
+Gender,Sex of the dog
+Status,See next page for more information
+Class,See next page for more information
+TransType,"Type of registration eg. renewal, new registration"
+Suburb,Suburb dog is registered within

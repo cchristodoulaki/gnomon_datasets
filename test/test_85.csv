@@ -1,0 +1,27 @@
+RODS field name,Full field name,Field description
+OCC_NO,Occurrence number,"The occurrence identification number. The ""R"" is to identify Rail mode followed by 2 digits to identify the year of the occurrence. The alphabetic letter after the year is to identify the region of the occurrence followed by RODS application assigned sequential number."
+OCC_YEAR,Occurrence year,The calendar year of the occurrence.
+OCC_DATE,Occurrence date,The date of the occurrence. Date format is YYYY-MM-DD. Date format displayed depends on the program used to read the csv file.
+CLASS_ID,Classification,"The TSB investigation classification of the occurrence. When an occurrence is being assessed, the value of 12 is temporarily applied to indicate the ""being assessed"" status."
+OCC_TYPE,Occurrence type,Identifies whether the occurrence was an accident or reportable incident.
+ACC_INC_TYPE,Accident/incident type,Identifies the type of accident or reportable incident.
+COLLISION_TYPE,Type of collision,"Train collision type (e.g. head-on, rear-end, side), when applicable."
+XING_TYPE,Crossing type,"Crossing type, when applicable."
+XING_IMPACT,Crossing impact,"Type of crossing impact (e.g. struck by vehicle, struck vehicle, struck pedestrian), when applicable."
+AWD_TYPE,Automated warning device type,"Automated warning device type, when applicable."
+PROVINCE,Province,The province of the occurrence location.
+SUBD_MILEAGE,Subdivision mileage,The subdivision mileage location of the occurrence.
+SUBD_NAME,Subdivision name,The name of the subdivision.
+SUBD_OWNER,Subdivision owner,The owner of the subdivision.
+DERAILED_RS_IND,Derailed rolling stock indicator,Indicates if any rolling stock cars derailed.
+COLLISION_AFTER_DERAILMENT_IND,Collision after derailment indicator,Indicates whether a collision occurred after derailment.
+RUNAWAY_RS_IND,Runaway rolling stock indicator,Indicates whether any rolling stock movement was uncontrolled.
+DG_CARS_INVOLVED_IND,Dangerous goods(DG) cars involved indicator,To indicate if any DG cars were involved in the occurrence.
+DG_RELEASED_CAR_IND,Dangerous goods (DG) released from DG car indicator,"Indicates if any DG cars released any contents. Not to be confused with a DG leaker, which refers to a minor spill usually due to a valve, gasket or connection failure. DG leaker is specified as an accident/incident type (ACC_INC_TYPE)."
+DG_RELEASED_NOT_FROM_DG_CARS_IND,Dangerous goods (DG) released but not from DG car indicator,"Indicates if any DG were released but not from DG car. For instance, the value would be YES in a situation when DG were released from a road transportation vehicle involved in a collision with a train. This field was added to RODS to capture data as per changes to TSB regulations 01 July 2014. Data prior to this date is not available."
+FIRE_IND,Fire indicator,To indicate if there was a fire as part of the occurrence or as a result of the occurrence.
+EXPLOSION_IND,Explosion indicator,To indicate if there was an explosion as part of the occurrence or as a result of the occurrence.
+EVACUATION_IND,Evacuation indicator,To indicate if there was an evacuation as a result of the occurrence.
+TOTAL_FATAL_INJURIES,Total fatalities,Total known number of fatalities.
+TOTAL_SERIOUS_INJURIES,Total serious injuries,Total known number of victims with serious injuries.
+PRODUCTION_DT,Production date,The date and time the data file was generated. Date format is YYYY-MM-DDThh:mm:ss.

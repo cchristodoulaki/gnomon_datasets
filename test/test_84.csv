@@ -1,0 +1,12 @@
+,
+FeeID,Unique identifier for fee
+FeeDescription,Description of the fee
+ProgramName,Name of the department that manages the fee
+FeeGroup,Function the fee applies to 
+FeeType,Type of fee
+FeeUnits,Unit value of the fee
+GST,GST exempted or taxable fee
+Auth,Fee imposed through statute or council authorisation
+CurrentFee,Dollar value of the fee
+Legislation,Fee's legislative act
+,*new field used from 2011 on

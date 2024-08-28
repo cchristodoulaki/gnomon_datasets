@@ -1,0 +1,17 @@
+Variable,Description,Values/Format
+state,State/Territory of dwelling,QLD. Queensland
+postcode,Dwelling postcode,Numeric 
+beds,Number of bedrooms,Numeric
+program_type,Type of community housing program,1 = Long term community housing
+,,2 = Short to medium term housing
+,,3 = Boarding/rooming house
+,,4 = Joint venture
+,,5 = National Rental Affordability Scheme (NRAS)
+,,9 = Other
+,,U = Unknown
+dwelling_type,Type of dwelling,1 = Separate house
+,,"2 = Semi-detached, row or terrace house, townhouse, etc."
+,,"3 = Flat, unit or apartment"
+,,8 = Boarding/rooming house unit
+,,9 = Other
+,,U = Unknown

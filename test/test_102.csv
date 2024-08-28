@@ -1,0 +1,14 @@
+COLUMN NAME,DESCRIPTION,DATA TYPE
+OBJECTID,Unique ID,Number
+Title Number,A unique number (also referred to as Licence Number as appropriate) assigned to the title at issuance by the Department,Text
+Current Area (ha),The current area (in hecatares) of the title,Number
+Licence Type Code,Code used for licence type,Text
+Datum,Datum,Text
+Region (English),Region name in English,Text
+Region (French),Region name in French,Text
+Representative,Name of Representative Company,Text
+Effective Date,Effective date of title,Date
+Expiry Date,Expiry date of title,Date
+Agreement Type (English),Licence Type in English,Text
+Agreement Type (French),Licence Type in French,Text
+SHAPE,GEOMETRY,Geometry

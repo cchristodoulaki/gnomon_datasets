@@ -1,0 +1,9 @@
+,
+School Number,Department for Education unique identifier
+School Name,Name of the school
+Suburb,Suburb the school is located in
+Post code,Post code of the school
+Type of Schooling,"The type of schooling provided. Primary, Secondary, Primary/Secondary combined, Aboriginal/Anangu or Special Education"
+Index of Educational Disadvantage,"The Index of Education Disadvantage for the school. 1 = higher disadvantage, 7 = lower disadvantage"
+Latitude,Latitude coordinates of the school
+Longitude,Longitude coordinates of the school

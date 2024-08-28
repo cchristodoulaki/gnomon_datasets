@@ -1,0 +1,6 @@
+Fields,Description
+Name,Name of Cemetery
+Address,Address where cemetery is located
+City,City where cemetery is located
+Postcode,cemetery's postcode
+First Burial,Data when first burial was conducted at the cemetery

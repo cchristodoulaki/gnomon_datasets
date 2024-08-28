@@ -1,0 +1,6 @@
+Field Name,Description
+Road Name,Location name of seat
+Asset ID,Unique identifier for seat asset
+Easting,X Coordinate of the seat
+Northing,Y Coordinate of the seat
+Seat Type New,"The type of seats e.g. activity hub round, Adelaide suite, Adelaide suite bench curved, Adelaide suite with plaque, aluminium, artwork, bmx seat etc. "

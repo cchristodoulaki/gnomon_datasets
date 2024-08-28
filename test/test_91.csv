@@ -1,0 +1,16 @@
+Header,Description
+PROGRAM,"Name of funding program under the Advance Queensland initiative. Advance Queensland is a comprehensive suite of programs designed to create the knowledge-based jobs of the future.  The programs will drive innovation, build on Queensland's natural advantages, and help raise its profile as an attractive investment destination. The Queensland Government has committed $405 million dollars over 4 years to the Advance Queensland intiatives - www.advance.qld.gov.au"
+RECIPIENT,Name of the organisation or individual that funding has been committed to.
+RECIPIENT_LOCATION_SA2_NAME_2016,"Location of recipient organisation to Australian Bureau of Statistics 2016 Australian Statistical Geography Standard Statistical Area 2 (SA2). When SA2 location information is not avilable, field is blank."
+RECIPIENT_LOCATION_SA3_NAME_2016,"Location of recipient organisation to Australian Bureau of Statistics 2016 Australian Statistical Geography Standard Statistical Area 3 (SA3). When SA3 location information is not avilable, field is blank."
+RECIPIENT_LOCATION_SA4_Name_2016,"Location of recipient organisation to Australian Bureau of Statistics 2016 Australian Statistical Geography Standard Statistical Area 4 (SA4). When SA4 location information is not avilable, field is blank."
+RECIPIENT_LOCATION_GCCSA_NAME_2016,Location of recipient organiastion to Australian Bureau of Statistics 2016 Greater Capital City Statistical Areas (GCCSA). All records have location data to GCCSA.
+PROJECT_TITLE_OUTLINE,Title or brief description of the project that funding has been committed for.
+RESEARCHER_FELLOW,"The following programs involve a nominated reseracher or fellow: Aboriginal and Torres Strait Islander PhD Scholarship, Aboriginal and Torres Strait Islander Research Fellowship, Innovation Partnerships, Research Fellowships and PhD Scholarships. This field is blank for other programs"
+SECTOR,"Sector(s) of the economy that the project will contribute towards. For projects where this is not known, this field is blank."
+PARTNER,"Partner(s), University(ies), Collaborator(s), End user(s) or organisation(s) involved in the project. For projects that do not involve a partner, this field is blank"
+APPROVAL_DATE,"Date that funding was committed to the project. Where approval date is not known, field is blank."
+FUNDING_COMMITTED_EXGST,Amount of Funding committed to the project in Australian dollars GST exclusive at approval date. Actual funds released to the recipient may differ.
+QLD_SCIENCE_PRIORITY,"Some programs require that the project relates to a Queensland Science Priority. For other projects, field is blank."
+PROJECT_TIMEFRAME_(28_DAYS),"The estimated duration of the project in months. For this purpose, a month is 28 days. Projects that are less than a month are represented as a decimal fraction. For projects where the timeframe is not known, field is blank."
+ROUND_NUMBER,"Some funding programs are administered in rounds. For projects that this does not apply, this field is blank. "

@@ -1,0 +1,13 @@
+COLUMN NAME,DESCRIPTION,DATA TYPE
+OBJECTID,Sequential unique whole numbers that are automatically generated,Number
+Licence Number,Exploration licence number,Text
+NTS Map Sheet,National Topographic System (NTS) map sheet,Text
+Quarter,Quarter section where the exploration licence is located,Text
+Owner,Owner(s) of the exploration licence,Text
+Effective Date,Date the exploration licence became effective,Text
+Status,Exploration licence status,Text
+Projected Area,Projected area of the exploration licence,Text
+Area (ac.),Exploration licence area in acres,Number
+Area (ha),Exploration licence area in hectares,Number
+Source,Source,Text
+SHAPE,Geometry,Geometry

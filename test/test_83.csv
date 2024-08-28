@@ -1,0 +1,15 @@
+COLUMN NAME,FULL COLUMN NAME,DESCRIPTION,DATA TYPE
+TAG_ID,TAG Identifier,Unique geographic identifier assigned by the Department,Text
+ENAME,Name (English),Treaty name in English,Text
+FNAME,Name (French),Treaty name in French,Text
+SUBTYPE_ENAME,Subtype (English),Treaty subtype in English,Text
+SUBTYPE_FNAME,Subtype (French),Treaty subtype in French,Text
+STAGE_ENAME,Stage (English),Treaty stage in English,Text
+STAGE_FNAME,Stage (French),Treaty stage in French,Text
+MAX_X_E,Maximum X (East),Longitude in decimal degrees of the eastern boundary of the geometry,Number
+MIN_X_W,Minimum X (West),Longitude in decimal degrees of the western boundary of the geometry,Number
+MAX_Y_N,Maximum Y (North),Latitude in decimal degrees of the northern boundary of the geometry,Number
+MIN_Y_S,Minimum Y (South),Latitude in decimal degrees of the southern boundary of the geometry,Number
+CENTER_X,Center X,Longitude in decimal degrees of the center of the geometry,Number
+CENTER_Y,Center Y,Latitude in decimal degrees of the center of the geometry,Number
+COORD_SYS,Coordinate System,Coordinate System,Text

@@ -1,0 +1,12 @@
+Field name,Datatype,Use,Data format,Field size,Description,Example,Null Value,Notes
+Data Zone,String,Identifier,,,The data zone is the key small-area statistical geography in Scotland.,S01003028,,
+Intermediate Geography Name,String,info,,,"aggregations of data zones within local authorities which contains between 2,500 and 6,000 people.",Glenwood South,,
+All occupied household spaces,Integer,value,,,All occupied household spaces within the multi-member wards,398,,
+One person,Integer,value,,,Number of one person household per multi-member ward,191,,
+Two people,Integer,value,,,Number of two people household per multi-member ward,91,,
+Three people,Integer,value,,,Number of tthree people household per multi-member ward,68,,
+Four people,Integer,value,,,Number of four people household per multi-member ward,26,,
+Five people,Integer,value,,,Number of five people household per multi-member ward,14,,
+Six people,Integer,value,,,Number of six people household per multi-member ward,7,,
+Seven people,Integer,value,,,Number of seven people household per multi-member ward,1,,
+Eight or more people,Integer,value,,,Number of eight or more people's household per multi-member ward,-,,

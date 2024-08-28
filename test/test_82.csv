@@ -1,0 +1,13 @@
+Fieldname ,description ,source
+Datazone,"SNS key small-area statistical geography in Scotland.Data zones have populations of between 500 and 1,000 household residents",http://www.scotland.gov.uk/Publications/2005/02/20697/52626
+All people,Total of No Condition and One or more conditions,http://www.scotlandscensus.gov.uk/variables-classification/long-term-health-condition-number-conditions
+No condition,"Person without any condition(s) which has lasted, or is expected to last at least 12 months",http://www.scotlandscensus.gov.uk/variables-classification/long-term-health-condition-number-conditions
+One or more conditions,"Person with one or more long term condition is any condition(s) which has lasted, or is expected to last at least 12 months",http://www.scotlandscensus.gov.uk/variables-classification/long-term-health-condition-number-conditions
+Deafness or partial hearing loss,category of a long term condition,http://www.scotlandscensus.gov.uk/variables-classification/long-term-health-condition-number-conditions
+Blindness or partial sight loss,category of a long term condition,http://www.scotlandscensus.gov.uk/variables-classification/long-term-health-condition-number-conditions
+Learning disability,category of a long term condition,http://www.scotlandscensus.gov.uk/variables-classification/long-term-health-condition-number-conditions
+Learning difficulty,category of a long term condition,http://www.scotlandscensus.gov.uk/variables-classification/long-term-health-condition-number-conditions
+Developmental disorder,category of a long term condition,http://www.scotlandscensus.gov.uk/variables-classification/long-term-health-condition-number-conditions
+Physical disability,category of a long term condition,http://www.scotlandscensus.gov.uk/variables-classification/long-term-health-condition-number-conditions
+Mental health condition,category of a long term condition,http://www.scotlandscensus.gov.uk/variables-classification/long-term-health-condition-number-conditions
+Other condition,category of a long term condition,http://www.scotlandscensus.gov.uk/variables-classification/long-term-health-condition-number-conditions

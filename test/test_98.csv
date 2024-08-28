@@ -1,0 +1,13 @@
+Field name,Datatype,Use,Data format,Field size,Description,Example,Null Value,Notes
+Electoral Ward Code,String,Identifier,,,code used to represent 2007 electoral ward in Glasgow,S13002650,,
+Ward Name,String,info,,,name of the electoral / multi member ward,Anderston/City Centre,,
+Sex/Age Band,String,info,,,sex and age band of the people in the statistics,All people aged 3 and over:,,
+Age Bracket,String,info,,,age range of people with gaelic language skills,15,,
+All people aged 3 and over,Integer,value,,,All people aged 3 and over with gaelic language skills,101,,
+Understands but does not speak read or write Gaelic,Integer,value,,,People in ward who understands but does not speak read or write Gaelic,0,,
+Speaks reads and writes Gaelic,Integer,value,,,People in ward who speaks reads and writes Gaelic,0,,
+Speaks but does not read or write Gaelic,Integer,value,,,People in ward who speaks but does not read or write Gaelic,0,,
+Speaks and reads but does not write Gaelic,Integer,value,,,People in ward who speaks and reads but does not write Gaelic,0,,
+Reads but does not speak or write Gaelic,Integer,value,,,People in ward who reads but does not speak or write Gaelic,0,,
+Other combination of skills in Gaelic,Integer,value,,,People in ward with other combination of skills in Gaelic,0,,
+No skills in Gaelic,Integer,value,,,People in ward with no skills in Gaelic,101,,

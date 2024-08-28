@@ -1,0 +1,23 @@
+Dataset ID,Dataset Name,Field,Type,Mandatory or Optional requirement (MOR),Field Description,Schema,LCC Mapping,Schema Comments,Schema Data Rules Comment,FormatReference,Example
+52,Weighbridges,Organisation Name,String,Optional,Name of the organisation that is the asset owner and if not the owner the main user of the asset.,LGA,,,Name of the Organisation's area coverage. Would be beneficial if added to all the datasets,Name of the Organisation's area coverage.,Lincolnshire
+52,Weighbridges,Organisation Code,String,Optional,A unique code to identify the asset owning/using organisation.   For LAs this can be the URI from Open Data Communities.,LGA,,,,http://opendatacommunities.org/def/concept/folders/themes/geography,Lincolnshire County Council:  http://opendatacommunities.org/doc/geography/administration/cty/E10000019
+52,Weighbridges,Published Date,DateTime,Optional,Date at which the information provided is true.  This field shows the Publication date. It represents the Applicable Date in LGA Schema.,LGA,,,Include this field to show the publication date of the dataset (ie. the date on which the dataset's information is true).,https://www.w3.org/TR/NOTE-datetime,YYYY-MM-DDThh:mm:ss      eg:  2017-02-15T00:00:00
+52,Weighbridges,Latest Data,Boolean,Optional,TRUE where the data is the latest for the indicator.  Else blank.,LCC,,,,,TRUE
+52,Weighbridges,Duration From,DateTime,Optional,"Dataset time period start, or start of accounting/reporting period.  DurationFrom will always include a Time of 00:00:00.",LGA,,,"Dataset time period start, or start of accounting/reporting period.  DurationFrom will always include a Time of 00:00:00.",http://calendars.wikia.com/wiki/ISO_8601,YYYY-MM-DDThh:mm:ss      eg:  2017-04-01T00:00:00
+52,Weighbridges,Duration To,DateTime,Optional,"Dataset time period end, or end of accounting/reporting period.",LGA,,,"Dataset time period end, or end of accounting/reporting period.",http://calendars.wikia.com/wiki/ISO_8601,YYYY-MM-DDThh:mm:ss      eg:  2017-06-30T23:59:59
+52,Weighbridges,Geo Entity Name,String,Optional,Type of geographic area,LCC,,,,http://statistics.data.gov.uk/areas,County
+52,Weighbridges,Geo Code,String,Optional,ONS geography identifier for the geography in which the data is located,LCC,,,,http://statistics.data.gov.uk/areas,E10000019
+52,Weighbridges,Geo Name,String,Optional,ONS geography name for the geography in which the data is located,LCC,,,,http://statistics.data.gov.uk/areas,Lincolnshire
+52,Weighbridges,Geo URI,String,Optional,ONS geography linked data URI for the geography in which the data is located,LCC,,,,http://statistics.data.gov.uk/areas,http://statistics.data.gov.uk/doc/statistical-geography/E10000019
+52,Weighbridges,Location,String,Optional,General location of the weighbridge facility,LCC,,,,,
+52,Weighbridges,Company Name,String,Mandatory,Company owning and operating the weighbridge,LCC,,,,,
+52,Weighbridges,Property Name,String,Mandatory,Common title or name used for the company building or facility,LGA,Property,,,,
+52,Weighbridges,Property Number,String,Mandatory,Number of the building or facility,LGA,,,,,
+52,Weighbridges,Street Name,String,Mandatory,Street name of the property address,LGA,,,,,
+52,Weighbridges,Locality,String,Optional,Locality name of the property address,LCC,,LCC additional field,,,
+52,Weighbridges,Post Town,String,Mandatory,Postal town of the property address,LGA,,,,,
+52,Weighbridges,Post Code,String,Mandatory,UK postcode of the property,LGA,,,,,
+52,Weighbridges,Telephone,String,Optional,Telephone number of the company,LCC,,,,,01234 567890 / 07788 990011
+52,Weighbridges,Maximum Weight Tonnes,Number,Optional,Maximum weight that the weighbridge can weigh (in metric tonnes),LCC,,,,,50
+52,Weighbridges,Weighing Plate Size,String,Optional,Size measurements of the weighbridge's weighing plate,LCC,,,,,50' x 10'
+52,Weighbridges,Opening Times,String,Optional,Opening days and times for the weighbridge,LCC,,,,,8:00am - 5:00pm Monday - Friday

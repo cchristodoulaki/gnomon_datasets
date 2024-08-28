@@ -1,0 +1,8 @@
+,
+yyyy,Year
+mm,Month
+tmax,Maximum temperature recorded and measured in degrees Celsius
+tmin ,Minimum temperature redorded - measured in degrees Celsius
+af ,Number of days in the month where Air Frost is recorded
+Rain,Amount of rainfall measured in mm for the month
+Sunshine,"Amount of sunchine measured in a month recorded in hours (sunshine data taken from an automatic Kipp & Zonen sensor marked with a #, otherwise sunshine data taken from a Campbell Stokes recorder)"

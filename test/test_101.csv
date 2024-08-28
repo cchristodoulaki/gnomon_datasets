@@ -1,0 +1,7 @@
+Field Name,Description
+Road Name,Location name of monument
+Asset ID,Unique identifier for monument asset
+Easting,X Coordinate of the monument
+Northing,Y Coordinate of the monument
+Monument Type,"Type of monument e.g. commemorative fountain, fountain, public art, memorial, sculpture, plaque, statue"
+Description,Brief description of the monument including a reference number

@@ -1,0 +1,5 @@
+COLUMN NAME,FULL COLUMN NAME,DESCRIPTION,DATA TYPE
+FID,FID,Unique ID,Number
+TC_NBR,Tribal Council Number,A unique number assigned to a tribal council by the Department,Number
+TC_NAME,Tribal Council Name,Tribal council name,Text
+SHAPE,SHAPE,GEOMETRY,Geometry

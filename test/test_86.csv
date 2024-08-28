@@ -1,0 +1,6 @@
+Variable,Description,Value/Format
+IDNo,Household idendification number,Numeric
+Date of Assistance,Date assistance provided,dd/mmm/yyyy
+HSC,Housing Service Centre,Text
+Household Type,Household type of recipient,Text
+Target Group,Specified target group of recipient,Text

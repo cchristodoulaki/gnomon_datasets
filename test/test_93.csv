@@ -1,0 +1,29 @@
+Table,Field Name,Description
+Counts,SITE,Unique Site ID
+Counts,Direction,"Entering or Exiting site. If multiple entrances/exits exist, these have been combined to one record."
+Counts,DAY,Survey day
+Counts,TIME,Start time of 15 minute count period
+Counts,C1,Austroads Class 1 - Two axled vehicles less than 3.2m in length
+Counts,C2,Austroads Class 2 - Class 1 vehicles towing
+Counts,C3,Austroads Class 3 - Two axled truck or bus greater than 3.2m in length
+Counts,C4-13,"Austroads Classes 4 to 13. Classes 4 to 12 are various types of multiple axled heavy vehicles. Class 13 is not a classification, but a dump code for unclassifiable records."
+Site Summary,Year,Year of Survey
+Site Summary,Land Use,Land use of survey location
+Site Summary,SITE,Unique Site ID
+Site Summary,Latitude,Only available for surveys conducted on public property
+Site Summary,Longitude,Only available for surveys conducted on public property
+Site Summary,Address,Only available for surveys conducted on public property
+Site Summary,Suburb,Suburb the Survey was conducted in
+Site Summary,Local Government Area,Local Government Area the Survey was conducted in
+Site Summary,Variable Units,Relevant variable for calculating traffic generation rates
+Site Summary,Variable Value,Value of variable
+Site Summary,Start Date,First day of site survey
+Site Summary,End Date,Last day of site survey
+Site Summary,Average Weekday Volume,Total volume of weekdays divided by number of weekdays
+Site Summary,Average Weekend Volume,Total volume of weekend days divided by number of weekend days
+Site Summary,Weekday Peak Hour Start,Start of the peak hour of the averaged weekday
+Site Summary,Weekday Peak Hour End,End of the peak hour of the averaged weekday
+Site Summary,Weekday Peak Volume,Volume during the average weekday peak hour
+Site Summary,Weekend Peak Hour Start,Start of the peak hour of the averaged weekend day
+Site Summary,Weekend Peak Hour End,End of the peak hour of the averaged weekend day
+Site Summary,Weekend Peak Volume,Volume during the average weekend day peak hour

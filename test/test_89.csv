@@ -1,0 +1,10 @@
+,
+School Number,Department for Education unique identifier
+School Name,Name of the school
+Post code,Post code the location of the school
+Type of Schooling,"The type of schooling provided. Primary, Secondary, Primary/Secondary combined, Aboriginal/Anangu or Special Education"
+Female Students,Full-time equivalent female students
+Male Students,Full-time equivalent male students
+Year Level,Full-time equivalent students in the year level. Important note: Year level enrolments suppressed for a school where a year level(s) has 5 or less students.
+Latitude,Latitude coordinates of the school
+Longitude,Longitude coordinates of the school
