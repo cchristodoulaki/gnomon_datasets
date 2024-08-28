@@ -1,0 +1,11 @@
+COLUMN NAME,FULL COLUMN NAME,DESCRIPTION,DATA TYPE
+FID,FID,Sequential unique whole numbers that are automatically generated,Number
+PERMIT_NUM,Permit Number,Prospecting permit Number,Text
+CURRENT_HA,Hectares,Area in hectares of the prospecting permit,Number
+PERMIT_STA,Permit Status,Prospecting permit status ,Text
+DISTRICT,District,District in which is located the prospecting permit,Number
+ISSUED_DT,Issue Date,Date the prospecting permit was issued,Date
+CANCEL_DT,Cancel Date,Date the prospecting permit was cancelled,Date
+DEPOSIT_DT,Deposit Due Date,Date the deposit is due for the prospecting permit,Date
+OWNERS,Owners,Owners of the prospecting permit,Text
+SHAPE,SHAPE,Geometry,Geometry

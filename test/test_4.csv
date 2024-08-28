@@ -1,0 +1,13 @@
+Field name,Description
+SITE_ID,ID number of each site collecting data
+DESCRIPTION,Site description
+MONTHS,Month data was collected in
+YEAR,Year data was collected in
+HOURS,Hour data was collected in
+SATURDAY,Average amount of bicycle counts that was recorded on this day and time
+SUNDAY,Average amount of bicycle counts that was recorded on this day and time
+MONDAY,Average amount of bicycle counts that was recorded on this day and time
+TUESDAY,Average amount of bicycle counts that was recorded on this day and time
+WEDNESDAY,Average amount of bicycle counts that was recorded on this day and time
+THURSDAY,Average amount of bicycle counts that was recorded on this day and time
+FRIDAY,Average amount of bicycle counts that was recorded on this day and time

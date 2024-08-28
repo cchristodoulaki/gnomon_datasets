@@ -1,0 +1,5 @@
+COLUMN NAME,DESCRIPTION,DATA TYPE
+OBJECTID,Unique ID,Number
+Band Number,"A unique number (also referred to as the Band Number, Band Code, or Administrative Code) assigned to the First Nation by the Department",Text
+Band Name,The official departmental name of a band as defined within the Indian Act. This name is the First Nation's name as ratified by a Band Council Resolution (BCR),Text
+SHAPE,GEOMETRY,Geometry

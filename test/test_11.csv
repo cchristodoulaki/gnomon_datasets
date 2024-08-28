@@ -1,0 +1,8 @@
+Variable,Description,Values/Format
+org_id,Organisation identifier,Alphanumeric
+fund_status,Funding status,1. Funded
+,,0. Unfunded
+Ten_man_stat_agg,Tenancy management status,1. Tenancies managed by Indigenous Community Housing Organisation (ICHO)
+,,2. Tenancies managed by State/Territory Housing Authority
+perm_dwell_managed,Total number of permanent dwellings managed,Numeric
+imp_dwell_managed,Total number of improvised dwellings managed,Numeric

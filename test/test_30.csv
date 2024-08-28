@@ -1,0 +1,3 @@
+Field name,Data type,Format/length/constraints,Description
+year-ending,Unsigned integer,"Integer in [1, 9007199254740992]",Common calendar year number describing the period beginning on 01 July of the calendar year next immediately preceding and ending on 30 June of the calendar year thereof
+occasions,Unsigned integer,"Integer in [0, 9007199254740992]",Number of occasions on which public interest information has been disclosed during the year indicated to a responsible officer of the agency under the Whistle-blowers' Protection Act 1993.

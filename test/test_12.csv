@@ -1,0 +1,18 @@
+Variable name,Definition,Values,Note
+SA3_code_2011,Statistical Area Level 3 code,,
+SA3_name_2011,Statistical Area Level 3 name,,
+FY,Financial year,FY201213,
+FY,Financial year,FY201314,
+FY,Financial year,FY201415,
+FY,Financial year,FY201516,
+Servicetype,Type of child care service,LDC - Long day care,LDC services provide care for children who have not yet commenced school.  LDC services may also provide child care for school children before and/or after school and during school holidays although the majority of the children attending any particular LDC service must not have commenced school.  
+Servicetype,Type of child care service,BSC - Before school hours care,"BSC & ASC services provide education and care mostly for children attending school, although they can care for children who have not yet started school. The majority of the children attending any particular BSC or ASC service must be attending school."
+Servicetype,Type of child care service,ASC - After school hours care,
+Child_age,Age of the child,1:0-4,Age is calculated at 1st Jan of each financial year. If a child is born after 1st Jan of that financial year then their age is considered to be 0.  Due to rounding the sum of component parts may not equal the Total.
+Child_age,Age of the child,2:5-9,
+Child_age,Age of the child,3:10+,
+Child_age,Age of the child,9:Total,
+Child_count,Number of children,,Figures have been rounded to the nearest 10. Figures less than 5 are displayed as '<10'.   
+Service_count,Number of CCB approved child care services,,Figures less than 5 are displayed as '<5'. 
+Fee_hr_mean,Mean of the fee per hour values of the CCB approved child care services,,Figures have been rounded to the nearest 5 cents.  
+Fee_hr_std,Standard deviation of the fee per hour values of the CCB approved child care services,,Figures have been rounded to the nearest 5 cents.  

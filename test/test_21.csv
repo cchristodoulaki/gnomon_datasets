@@ -1,0 +1,4 @@
+Field name,Data type,Format/length/constraints,Description
+year-ending,Unsigned integer,"Integer in [1, 9007199254740992]",Common calendar year number describing the period beginning on 01 July of the calendar year next immediately preceding and ending on 30 June of the calendar year thereof
+classification,String,,"Classification of executive. Value 'Total' denotes total of other categories for the year, otherwise arbitrary text."
+number-of-execs,Unsigned integer,"Integer in [0, 9007199254740992]",Number of people employed in an executive position in the agency for some or all of the indicated year in the indicated category

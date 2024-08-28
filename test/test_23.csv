@@ -1,0 +1,13 @@
+Field name,Datatype,Use,Data format,Field size,Description,Example,Null Value,Notes
+Electoral Ward Code,String,Identifier,,,code used to represent 2007 electoral ward in Glasgow,S13002650,,
+Ward Name,String,info,,,name of the electoral / multi member ward,Anderston/City Centre,,
+Country of Birth,String,info,,,country of birth,All people,,
+All people,Integer,value,,,total number of people in the multi member ward by their identities,29794,,
+Scottish identity only,Integer,value,,,total number of people in the multi member ward with Scottish Identities,12163,,
+British identity only,Integer,value,,,total number of people in the multi member ward with British Identities only,3120,,
+Scottish and British identities only,Integer,value,,,total number of people in the multi member ward with Scottish and British Identities only,4309,,
+Scottish and any other identities,Integer,value,,,total number of people in the multi member ward with Scottish and any other Identities,1016,,
+English identity only,Integer,value,,,total number of people in the multi member ward with English Identity only,661,,
+Any other combination of UK identities (UK only),Integer,value,,,total number of people in the multi member ward with a combination of UK identities only,1104,,
+Other identity only (1),Integer,value,,,total number of people in the multi member ward with only 1 Other identity,7150,,
+Other identity and at least one UK identity,Integer,value,,,total number of people in the multi member ward with Other identity and at least one UK identity,271,,

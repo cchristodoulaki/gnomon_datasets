@@ -1,0 +1,33 @@
+Variable,Description,Values/Format
+State,State/territory identifier,1. NSW
+,,2. Vic
+,,3. Qld
+,,4. SA
+,,5. WA
+,,6. Tas
+,,7. NT
+,,8. ACT
+Program,Program type,1. Public rental housing
+,,3. State owned and managed Indigenous housing 
+DwelType,Dwelling structure,1. Separate house
+,,"2. Semi-detached, row or terrace hosue, townhouse,etc."
+,,"3. Flat, unit or apartment"
+,,"4. Caravan, tent, cabin etc, in caravan park, houseboat in marina, etc."
+,,"5. Caravan not in caravan park, houeboat not in marina, etc."
+,,"6. Improvised home, tent, campers out"
+,,"7. House or flat attached to a shop, office, etc."
+,,8. Boarding/rooming house unit
+,,9. Other
+,,99. Not stated/inadequately described
+NBedroom,Number of bedrooms,Numeric
+Postcode,Dwelling postcode,Numeric
+Rnt_Mrkt,Market rent value of dwellings (weekly amount at 30 June),$$$$.cc
+,,na. not applicable
+TenStat,Dwelling status indicator (at 30 June),1. Tenantable
+,,2. Untenantable
+,,9. Not stated/inadequately described
+OccStat,Dwelling occupancy status (at 30 June),1. Occupied
+,,2. Unoccupied
+DevStat,Dwelling major redevelopment indicator (at 30 June),1. Yes
+,,2. No
+,,9. Not stated/inadequately described

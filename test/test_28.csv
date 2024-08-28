@@ -1,0 +1,18 @@
+FIELD NAME,DEFINITION,VALUES,NOTES
+Financing Type,Financing Type,"Debt Financing, Leasing, ...","Other includes: financing from government institutions (e.g., no interest loans)"
+Request Rate,Request Rate,Percentage,
+Approval Rate,Approval Rate,Percentage,"A request that received either full approval or partial approval was considered ""approved"""
+Average Amount Authorized,Average Amount Authorized,Dollar amount,Approved amounts were calculated using categorical answers in conjunction with adjusted mean or median values based on Statistics Canada's Survey on Financing of Small and Medium Enterprises 2007 data
+Share,Share,Percentage,
+Type fo Debt Financing,Type fo Debt Financing,"Long Term, Short Term","Long Term includes: mortgages and term loans, Short Term includes: lines of credit and credit cards"
+Average Interest Rate,Average Interest Rate,Percentage,Interest rates and collateral requirements are the weighted averages of related sub-categories
+% Collateral Required,% Collateral Required,Percentage,Interest rates and collateral requirements are the weighted averages of related sub-categories
+Number of Employees,Number of Employees,By range,
+Region,Region (geographical),"Atlantic, Quebec, Ontario, ...",
+Industry,Industry,"Acommodation and Food, Construction, ...","Primary includes the following: agriculture and fishing, forestry, and oil and mining"
+Age of Business,Age of Business,By range,
+Exportation,Exportation,"Exporter, Non-Exporter",
+Region,Region,"Rural, Urban",
+Intended Use,Intended Use,"Land and Buildings, Vehicles/Rolling Stock, ...","Fixed Assets includes: Land, Vehicles, Computer Hardware/Software, Other Machinery"
+% Firms That Sought Debt Financing,% Firms That Sought Debt Financing,Percentage,The sum of the percentages will not equal 100% since firms often provided multiple answers
+% Firms That Re-Invested,% Firms That Re-Invested,Percentage,
