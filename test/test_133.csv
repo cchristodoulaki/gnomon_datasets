@@ -1,0 +1,13 @@
+fieldname,description
+AREA_ID,GSS code for the area
+G_TYPE,"Geography type.  Can be: IZ=Intermediate Geography; Scot=Scotland; CHP =Community Health Partnership within Glasgow City (Glasgow North East, Glasgow North West and Glasgow South). "
+PERIOD,Year
+INDICATOR_ID,Numerical Code for the indicator
+INDICATOR_DESCRIPTION,Text description for the indicator
+INDICATOR_TYPE,"Type of indicator.  Can be: sr= age-sex standardised rate per 100,000 population"
+NUMBER,Number of indicator.  Do not use. Some are blank as disclosive values are removed.
+Measure,Best estimate of the indicator.  Use this with LCL and UCL below
+LCL,Lower Confidence Limit.  Use with Measure
+UCL,Upper Confidence Limit.  Use with Measure
+Indicator Note 1,"5-year combined number, and 5-year average annual measure"
+Indicator Note 2,"3-year combined number, and 3-year average annual measure"

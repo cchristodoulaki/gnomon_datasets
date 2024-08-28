@@ -1,0 +1,9 @@
+Fieldname ,description ,source
+Datazone,"SNS key small-area statistical geography in Scotland.Data zones have populations of between 500 and 1,000 household residents",http://www.scotland.gov.uk/Publications/2005/02/20697/52626
+Intermediate geography name,"SNS : The intermediate zones are aggregations of data zones within local authorities and contain between 2,500 and 6,000 people.",http://www.scotland.gov.uk/Publications/2005/02/20697/52626
+Multi-member ward name,"Introduced 2007, elected representatives to Local Authorities, data zones are not completely nested within MMW.",http://www.lgbc-scotland.gov.uk/reports/eareports4th.asp
+2011 Scottish Parliamentary Constituencies,Scottish Parliament constituencies in use from 2011 onwards.,http://www.bcomm-scotland.independent.gov.uk/maps/spc/2011/
+domain_deprivation_rank,"The SIMD ranks small areas (called data zones) from most deprived (ranked 1) to least deprived (ranked 6,505). ",http://simd.scotland.gov.uk/publication-2012/
+domain_local_rank,"A within Glasgow comparison only - it ranks the SIMD rank locally (1 most deprived, 694 is least deprived within Glasgow)",
+SIMD domain ,income; employment; health; education; housing; access and crime,http://simd.scotland.gov.uk/publication-2012/
+SIMD overall,Ranked score for overall deprivation,http://simd.scotland.gov.uk/publication-2012/

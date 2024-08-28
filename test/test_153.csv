@@ -1,0 +1,13 @@
+Field name,Datatype,Use,Data format,Field size,Description,Example,Null Value,Notes
+Data Zone,String,Identifier,,,The data zone is the key small-area statistical geography in Scotland.,S01003025,,
+Intermediate Geography Name,String,info,,,"aggregations of data zones within local authorities which contains between 2,500 and 6,000 people.",Carmunnock South,,
+English Proficiency,String,info,,,indicators measuring english proficiency,Does not speak English well,,
+All people aged 3 and over,Integer,value,,,All people aged 3 and over per data zone,4,,
+Born in the UK,Integer,value,,,All people born in the UK per data zone,3,,
+Born outside the UK: Total,Integer,value,,,All people born outside the UK per data zone,1,,
+Born outside the UK: Arrived in the UK aged 0 to 15,Integer,value,,,All people born outside the UK and arrived in the UK aged 0 to 15,0,,
+Born outside the UK: Arrived in the UK aged 16 to 24,Integer,value,,,All people born outside the UK and arrived in the UK aged 16 to 24,0,,
+Born outside the UK: Arrived in the UK aged 25 to 34,Integer,value,,,All people born outside the UK and arrived in the UK aged 25 to 34,1,,
+Born outside the UK: Arrived in the UK aged 35 to 49,Integer,value,,,All people born outside the UK and arrived in the UK aged 35 to 49,0,,
+Born outside the UK: Arrived in the UK aged 50 to 64,Integer,value,,,All people born outside the UK and arrived in the UK aged 50 to 64,0,,
+Born outside the UK: Arrived in the UK aged 65 and over,Integer,value,,,All people born outside the UK and arrived in the UK aged 65 and over,0,,

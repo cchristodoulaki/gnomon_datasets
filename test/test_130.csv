@@ -1,0 +1,12 @@
+Attribute,Attribute Description
+dbid,the internal database identifier record for the header record. Useful for back references.
+recorded,the timestamp taken within the SCATS system when the data was recorded.
+ct,the actual cycle time of the traffic signal controller (TSC) at the specific time.
+link_plan,"the linking plan running at this TSC, which is related to another TSC to optimize traffic flow."
+married,an boolean indicating whether the link plan was actually running in a linked mode with the related TSC.
+ss,the sub-system number - identifies a group of TSC within a region.
+tsc,"the traffic signal controller (TSC) Site ID installed at the intersection. The number is the suffix of the TSC name, which is attached to the physical chassis."
+lane,identifies a strategic approach or link into the intersection.
+dsN,degree of saturation for lane N - the average occupancy time of a lane detector expressed as a percentage. There may be 1 to 4 lanes.
+mfN,measured flow for lane N - the number of vehicles for the respective cycle for that lane. There may be 1 to 4 lanes.
+rfN,reconstituted flow for lane N - a SCATS calculated expected number of vehicles for the respective cycle for that lane. There may be 1 to 4 lanes.

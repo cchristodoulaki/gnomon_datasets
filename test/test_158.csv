@@ -1,0 +1,7 @@
+Field name,Datatype,Use,Data format,Field size,Description,Example,Null Value,Notes
+Electoral Ward Code,String,identifier,,,code used to represent 2007 electoral ward in Glasgow,S13002650,,
+Ward Name,String,info,,,name of the electoral / multi member ward,Anderston/City Centre,,
+Age,String,info,,,Age bracket of the people in the statistics,All people,,
+All people,Integer,Integer,,,Total number of people counted in the multi-member ,29794,,
+Males,Integer,Integer,,,number of males counted for each multi-member ward,15609,,
+Females,Integer,Integer,,,number of females counted for each multi-member ward,14185,,

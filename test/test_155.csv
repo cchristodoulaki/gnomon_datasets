@@ -1,0 +1,21 @@
+Variable,Description,Values/Format
+Indig,Indigenous status of household,1. Indigenous
+,,2. Non-Indigenous
+,,9. Not stated/inadequately described
+Inc_Type,Principal income source of household,1. Employee cash income
+,,2. Unincorporated business income
+,,3.1.1. Youth allowance
+,,3.1.2. Newstart allowance
+,,3.1.3. Other allowance for students and the unemployed
+,,3.2.1. Age pension
+,,3.2.2. Disability support pension
+,,3.2.3. Other Centrelink penisons/allowances for the aged and people with a disablity
+,,"3.3. Other Government cash pensions/allowances (e.g. Service pensions, Family Tax Benefit)"
+,,4. Other cash income
+,,9. Not stated/inadequately described
+State,State in which property is located,QLD. Queensland
+WRent,Weekly rent payment,$$$.cc
+PRA_Type,Type of assistance received,1. Bond loan
+,,2. Rental grant
+PRA_Date,Date assistance received,dd/mm/yyyy
+PRA_Amount,Amount of assistance received,$$$$$.cc

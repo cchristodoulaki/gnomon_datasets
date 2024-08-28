@@ -1,0 +1,7 @@
+Field Name,Description
+Road Name,Location name of litter bin
+Asset ID,Unique identifier for litter bin asset
+Easting,X Coordinate of the litter bin
+Northing,Y Coordinate of the litter bin
+Buttout,Whether the bins have a place to buttout cigarettes
+Bin Type,The type of Bin installed. E.g. 140L bin with buttout

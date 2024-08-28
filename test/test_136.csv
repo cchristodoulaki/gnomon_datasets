@@ -1,0 +1,6 @@
+Variable,Description,Categories/Format
+Provider name,Home assist secure service provider name,Alphanumeric
+Q1,Number of households assisted during Q1 for the first time this financial year,Numeric
+Q2,Number of households assisted during Q2 for the first time this financial year,Numeric
+Q3,Number of households assisted during Q3 for the first time this financial year,Numeric
+Q4,Number of households assisted during Q4 for the first time this financial year,Numeric

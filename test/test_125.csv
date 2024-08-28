@@ -1,0 +1,21 @@
+Field Name,Description
+Publisher,Stenico Data Services Ltd -Some elements of the dataset are derived from information produced by Registers of Scotland
+CLASS,Administrative Classification only
+STNO,Street Number
+STnu,Street Number
+FLATPOSN,Flat Position
+STNAME,Street Name
+POSTCODE,Post Code
+MONTH OF SALE,Month of Sale
+YEAR OF SALE (CALENDAR),YEAR OF SALE (CALENDAR)
+YEAR OF SALE (BUSINESS),YEAR OF SALE (BUSINESS)
+MONTH AND YEAR,MONTH AND YEAR
+QUARTER_(CALENDAR),QUARTER_(CALENDAR)
+ACTUAL PRICE AT POINT OF SALE,Actual Price 
+RPI,Retail Price Index - Published every month and available for the last 20 years
+DEFLATOR,Figure used to to determine change in house prices over time - calculated fromthe Retail Price Index and other data
+PRICE CONSTANT AT July 2013,Actual Price multiplied by the Deflator. This is the price if RPI is applied to original sale price - How much would the property be valued at now. 
+ORIGINOFBUY,Council area or Country where the buyer comes from
+OMIT OR USE,Oroginal data also included retail and commercial data. - Not reproduced here
+NEWBUILD OR RESALE,Is it a newbuild house or a resale
+LHF,Local Housing Forum Area

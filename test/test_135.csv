@@ -1,0 +1,34 @@
+Field,Description
+Region name,Defined South Australian areas
+System name,"The name of the system that provides water to customers.  It includes all infrastructure from catchment to tap, including the source water, water storage reservoirs, treatment plants and distribution networks."
+Parameter,Measurable factors to defines water quality.
+Units,Standard measurements 
+Health guideline,Guideline specified by the Australian Drinking Water Guidelines (ADWG) 2011
+Aesthetic guideline,Guideline specified by the Australian Drinking Water Guidelines (ADWG) 2011
+Average value,Rolling value calculated over previous 12 months.
+Health compliance,"Rolling value calculated over previous 12 months.  Although SA Water aim for 100% compliance, the Australian Drinking Water Guidelines (ADWG) recognises that occasional exceedences may occur. Where there are sufficient sample results from a 12 month period, the 95th percentile statistic should be used to determine performance against the guideline value. Any exceedence requires immediate investigation and corrective action as agreed with SA Health."
+Disinfection,The process used to disinfect water.
+Census data,Population amount based on 2011 Census data
+NA,Not applicable
+NG,No guideline available
+Alkalinity / Bicarbonate / Carbonate,"Alkalinity is primarily a function of the carbonate, bicarbonate, and hydroxide concentration in the sample. It is expressed as the equivalent concentration of calcium carbonate."
+Calcium,A naturally occurring element that can enter water from catchments. It may also be added to water in the treatment process to reduce the acidity levels or increase the capacity of water to buffer pH changes. 
+Chloride,A natural mineral salt.  High concentrations more common in ground water and certain catchment
+Chlorine Residual,The residual formed with chlorine dosage once all the chlorine demand has been satisfied. This chlorine is free to kill/inactivate microorganisms.  Chlorinated systems use Free Chlorine as a measure and Chloraminated systems use Total Chlorine as a measure
+Colour,"Colour is mainly due to the presence of dissolved substances from organic matter in water, such as decaying leaves and vegetation. True colour refers to the colour of water after particles of organic matter have been removed through filtration and is the measurement of the extent to which light is absorbed by the water. Measured in Hazen Units (HU)."
+E. coli,"Abbreviation of Escherichia Coli. The most common thermotolerant (heat tolerant) coliform present in faeces, which is regarded as the most specific indicator of recent raecal contamination. Escherichia Coli (E. Coli) can be killed by standard disinfection practices."
+Fluoride,"Fluoride (F) is regarded as a useful constituent of drinking water, particularly for the prevention of tooth decay. Fluoride has been added to Adelaide's water supply since 1971. Concentration is maintained within the recommended levels set by SA Health."
+Hardness,Hardness is the sum of the concentrations of calcium and magnesium ions expressed as calcium carbonate (CaCO3) equivalent. Waters with a high mineral content (a total hardness in excess of 200mg/L) are considered hard.
+Iron,"An element which, when found in water, leads to a brownish discolouration. Limits on the amount of iron (Fe) in water are usually due to taste and appearance factors rather than any detrimental health effects."
+Magnesium,A naturally occurring element that can enter water from catchments.  As the concentration of Calcium and Magnesium increase so does the hardness of the water.
+Manganese,"Manganese (Mn) in a water supply may affect taste, cause staining of clothes, produce deposits in pipes and contribute to turbidity."
+pH,"The pH value indicates if a substance is acidic, neutral or alkaline. it is calculated from the number of hydrogen ions present and is measured on a scale from 0 to 14. A pH greater than 7 is alkaline, less than 7 is acidic and 7 is neutral. The pH of public water supplies should be slightly alkaline to minimise corrosion."
+Potassium,"Potassium is an essential element in humans and is seldom, if ever, found in drinking water at levels that could be a concern for healthy humans."
+Sodium,The sodium ion is widespread in water due to the high solubility of sodium salts and the abundance of mineral deposits.  Other contributions to sodium in drinking water can come from water treatment chemicals and domestic water softeners
+Sulphate,"A natural component of water, other contributions to sulphate may come from water treatment chemicals"
+Total Dissolved Solids,A measure of inorganic salts and small amounts or organic matter that are dissolved in water. Usually determined by converting electrical conductivity to Total Dissolved Solids (TDS) values.
+Trihalomethanes,Compounds that may occur in a chlorinated water supply as a by-product of organic materials present in the water reacting with chlorine
+Turbidity,Refers to the presence of suspended solids in water causing a muddy or discolours appearance. Turbidity is measure in Nephelometric Turbidity Units (NTU)
+Zinc,Usually from corrosion of galvanised pipes/fittings and brasses.  Natural concentrations generally <0.01mg/L.
+Total hardness,Total hardness is the sum of the concentrations of calcium and magnesium ions expressed as calcium carbonate (CaCO3) equivalent. Waters with a high mineral content (a total hardness in excess of 200mg/L) are considered hard
+Total hardness- International / English Degrees / French Degrees / German Degrees,Used to aid in the setup of dishwashers.  As different countries use different units for the measurement of water hardness the instruction manual for the dishwasher may ask for hardness in one of the following forms.

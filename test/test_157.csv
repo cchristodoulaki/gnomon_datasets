@@ -1,0 +1,4 @@
+Field name,Data type,Format/length/constraints,Description
+year-ending,Unsigned integer,"Integer in [1, 9007199254740992]",Common calendar year number describing the period beginning on 01 July of the calendar year next immediately preceding and ending on 30 June of the calendar year thereof
+category,String,,Category or nature of fraud
+instances,Unsigned integer,"Integer in [0, 9007199254740992]",Number of instances of this category/nature of fraud detected in the agency during the year indicated

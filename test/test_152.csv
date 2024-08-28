@@ -1,0 +1,10 @@
+Field name,Datatype,Use,Data format,Field size,Description,Example,Null Value,Notes
+Electoral Ward Code,String,Identifier,,,code used to represent 2007 electoral ward in Glasgow,S13002641,,
+Ward Name,String,info,,,name of the electoral / multi member ward,Linn,,
+Sex/Age Band,String,info,,,Sex and Age Band of people counted in statistics,All people aged 3 and over:,,
+Age Distribution,String,info,,,age bracket of people counted in statistics,5 to 9,,
+All people aged 3 and over,Integer,value,,,All people aged 3 and over ,1531,,
+Speaks English very well,Integer,value,,,number of people who speaks english very well by sex by age,1194,,
+Speaks English well,Integer,value,,,number of people who speaks english well by sex by age,308,,
+Does not speak English well,Integer,value,,,number of people who do not speak english well by sex by age,26,,
+Does not speak English at all,Integer,value,,,number of people who do not speak english at all by sex by age,3,,

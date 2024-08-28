@@ -1,0 +1,10 @@
+Field Names,Meaning
+rundate,Date report was generated
+reporting_period,month and year figures relate to
+airport_name,Name of Airport
+this_year_pax,Total number of Terminal passengers at Glasgow Airport for the year 
+this_year_total_pax_UK_airports,Total number of Terminal passengers at all UK Airports for the year 
+last_year_pax,Total number of Terminal passengers at Glasgow Airport for the previous year
+last_year_total_pax_UK_airports,Total number of Terminal passengers at all UK Airports for the previous year 
+Month,Month of reporting period
+Year,Year of reporting period

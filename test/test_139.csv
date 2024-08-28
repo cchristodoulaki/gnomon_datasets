@@ -1,0 +1,6 @@
+Field Name,Description
+Road Name,Location name of picnic table
+Asset ID,Unique identifier for picnic table asset
+Easting,X Coordinate of the picnic table
+Northing,Y Coordinate of the picnic table
+Table Type,"The type of picnic table e.g. ACC Timber, Aquatic, campus, Cosset, Mega Toy and Thin Timber slatted Metal"

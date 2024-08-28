@@ -1,0 +1,21 @@
+File Name,Field Name,Field Description,Comment
+AnzicDivisionAndEmployment,fkSurveyBlockID ,Surveyblock Number to link to GIS layer via SVYBLK,Anzic Landuse table at division level with employment data.
+,pkAnzic_Code,Anzic Division Code,
+,ANZIC_ActivityClassification,Anzic Classification Code,
+,OnSiteFull,Count of full time employment for that division ,
+,OnSitePart,Count of part time employment for that division ,
+,OffSiteFull,Count of full time employment for that division who work away from the surveyed location,
+,OffSitePart,Count of part time employment for that division who work away from the surveyed location,
+,OnSiteTotal,Total count of all onsite employment,
+,OffSiteTotal,Total count of all offsite employment,
+,Total,Total employment for that division ,
+AnzicClassAndEmployment,SurveyBlock ,Surveyblock Number to link to GIS layer via SVYBLK,Anzic Landuse table at Class level with employment data.
+,AnzicClass,Anzic Class Description,
+,OnSiteFull,Count of full time employment for that Class ,
+,OnSitePart,Count of part time employment for that Class ,
+,OffSiteFull,Count of full time employment for that Class who work away from the surveyed location,
+,OffSitePart,Count of part time employment for that Class who work away from the surveyed location,
+,OnSiteTotal,Total count of all onsite employment,
+,OffSiteTotal,Total count of all offsite employment,
+,Total,Total employment for that Class ,
+SurveyBlock2011,SVYBLK,Surveyblock number used to link to landuse and employment tables.,The survey block file has the survey block number or ID which can be used to link to land use data.

@@ -1,0 +1,12 @@
+Variable,Description,Values/Format
+sur_resp,AIHW survey response flag,Y. Yes
+,,N.  No
+org_name,Organisation name,Alphanumeric
+org_address,Street address ,Aphanumeric
+org_suburb,Suburb,Aphanumeric
+org_pcode,Postcode,Numeric
+,,U. Unknown
+org_type,Provider type,A. Association
+,,C. Cooperative
+,,O. Other
+,,U. Unknown

@@ -1,0 +1,10 @@
+Field name,Datatype,Use,Data format,Description,Example,Null Value,Notes
+Postcode,String,,Identifier,postcode of the property where the household count was observed on census day - 27th March 2011,G1 1BL,,
+PopulationCount,Integer,,info,total number of people living/visiting in each postcode counted on census day,100,,
+HouseholdCount,Integer,,info,total number of households in the postcode counted on census day,50,,
+OutputArea2011Code,String,,identifier,output area code generated in 2011,S00112164,,
+Data zone,String,,identifier,datazone code,S01003025,,
+Usually resident population,Integer,,info,"number of usual residents in either a postcode, datazone or output area ",20,,
+Households with usual residents,Integer,,info,"total number of households with usual residents in a postcode, datazone or output area",10,,
+RevisedOutputArea2011Code,String,,identifier,modified output area code generated in 2011,S00112151,,
+2011 Postcode,String,,identifier,postcode revised in 2011,G40 3AQ,,

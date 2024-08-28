@@ -1,0 +1,133 @@
+Variable,Description,Values/Format
+UsageType,Housing program,2 = Public rental housing program - General stock
+,,3 = Public rental housing program - Senior accommodation
+,,61 = Aboriginal and Torres Strait Islander housing rental program - General stock
+,,62 =  Aboriginal and Torres Strait Islander housing rental program - Senior accommodation
+TenancyStartDate,Start date of the tenancy agreement,dd/mm/yyyy
+HousingServiceCentre,Housing Service Centre that manages the tenancy,101 = Woodridge
+,,102 = Ipswich
+,,103 = Caboolture
+,,104 = Inala
+,,105 = Chermside
+,,106 = Capalaba
+,,107 = Buranda
+,,108 = Fortitude Valley
+,,109 = Wynnum
+,,110 = Redcliffe
+,,201 = Townsville
+,,202 = Cairns
+,,203 = Mackay
+,,204 = Robina
+,,205 = Maroochydore
+,,206 = Rockhampton
+,,207 = Toowoomba
+,,208 = Bundaberg
+,,209 = Mt Isa
+,,210 = Thursday Island
+,,211 = Emerald
+,,212 = Gladstone
+,,213 = Maryborough
+,,999 = Unknown
+Postcode,Postcode of property,Numeric
+NumberBedrooms,Number of bedrooms in property,Numeric
+ArrearsStatus,Is the tenancy in rental arrears of four weeks or more?,Yes or No
+MainLanguage,Language used at interview,AB = Australian Aboriginal Languages
+,,AF = Afrikaans
+,,AH = Amharic
+,,AL = Albanian
+,,AM = Armenian
+,,AR = Arabic including Lebanese
+,,BE = Bengali
+,,BO = Bosnian
+,,BR = Burmese
+,,BU = Bulgarian
+,,CH = Chinese Languages
+,,CR = Croation
+,,CZ = Czech
+,,DA = Danish
+,,DU = Dutch
+,,EN = English
+,,ES = Estonian
+,,FA = Farsi (Persian)
+,,FI = Fijian
+,,FL = Filipino Languages
+,,FN = Finnish
+,,FR = French
+,,GA = Gaelic
+,,GE = German
+,,GR = Greek
+,,HE = Hebrew
+,,HI = Hindi
+,,HU = Hungarian
+,,IN = Indonesian/Malay
+,,IT = Italian
+,,JA = Japanese
+,,KH = Khmer
+,,KO = Korean
+,,KU = Kurdish
+,,LA = Lao
+,,LI = Lithuanian
+,,LT = Latvian
+,,MA = Macedonian
+,,ML = Maltese
+,,MO = Maori
+,,NO = Norwegian
+,,NS = Not Stated
+,,OA = Other African Language (See App)
+,,OE = Other European Language (See App)
+,,OO = Other Oceanic Language (See App)
+,,OS = Other Asian Language (See App)
+,,OT = Other Language  (See App)
+,,PO = Polish
+,,PR = Portuguese
+,,RM = Romany
+,,RO = Romanian
+,,RU = Russian
+,,SC = Serbo-Croatian
+,,SE = Serbian
+,,SI = Deaf Sign Language
+,,SL = Slovak
+,,SN = Sinhalese
+,,SO = Slovenian
+,,SP = Spanish
+,,SW = Swedish
+,,TA = Tamil
+,,TE = Tetum
+,,TH = Thai
+,,TO = Tongan
+,,TS = Torres Strait Island
+,,TU = Turkish
+,,UK = Ukranian
+,,UN = Unknown
+,,UR = Urdu
+,,VI = Vietnamese
+,,WE = Welsh
+,,YI = Yiddish
+,,YU = Yugoslav
+MarketRent,Weekly market rent associated with the property,$$$.cc
+OccupancyStatus,The level by which the household is under-occupied or overcrowded,Text
+FamilyType,The family type of the household,Text
+NumberOfOccupants,Number of occupants in the household,Numeric
+,,n.a. = data unavailable for reasons of confidentiality
+Disability,Does any household member have a disability?,N = No
+,,Y = Yes
+,,n.a. = data unavailable for reasons of confidentiality
+AllocTime,Number of months between application date and start date of tenancy agreement,Alphanumeric
+NewHHold,New household allocated during the previous twelve months,Yes = New household allocated during the previous twelve months
+,,"No = Ongoing tenancy, transfer or succession of tenancy"
+SAP_Segment ,Level of housing need at time of application (where available),A = Very High
+,,B = High
+,,C = Moderate
+,,D = Lower
+,,U = unspecified
+HomelessnessFlag ,Category of homelessness for households who were homeless or at risk of homelessness at time of allocation (where available),A = Homeless A
+,,B = Homeless B
+,,C = Homeless C
+,,n.a. = data unavailable for reasons of confidentiality
+,,U = unspecified
+Aboriginal and Torres Strait Islander Household,Has any member of the household identified as being Aboriginal or Torres Strait Islander?,1 = Yes
+,,2 = No
+,,9 = Unknown
+,,n.a. = data unavailable for reasons of confidentiality
+LGA,Local Government Authority associated with address of property,Text
+State Electorate,State Electorate associated with address of property,Text

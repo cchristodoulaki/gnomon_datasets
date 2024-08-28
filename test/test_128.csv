@@ -1,0 +1,14 @@
+Field,Data type,Format/length/constraints,Description
+root,Array,,"Array of objects, being one object for each financial year of coverage"
+root[*],JSON object,,
+"root[*][""year-ending""]",Number,"Integer in [1, 9007199254740992]",Common calendar year number describing the period beginning on 01 July of the calendar year next immediately preceding and ending on 30 June of the calendar year thereof
+"root[*][""under $10,000""]",JSON object,,
+"root[*][""under $10,000""][""purpose""]",String,,"Consolidated description of the purpose of consultancies in the year which were individually under $10,000 in value"
+"root[*][""under $10,000""][""value""]",Number,Decimal (2 d.p.),"The consolidated value of the consultancies in the year which were individually under $10,000 in value. Expressed as a number in Australian dollars."
+"root[*][""$10,000+""]",JSON object,,
+"root[*][""$10,000+""][""consultancies""]",Array,,"Array of objects, one object per consultancy of $10,000+ in value in the year"
+"root[*][""$10,000+""][""consultancies""][*]",JSON object,,
+"root[*][""$10,000+""][""consultancies""][*][""business-name""]",String,,Name of the business which provided the consultancy service
+"root[*][""$10,000+""][""consultancies""][*][""purpose""]",String,,Description of the purpose of the consultancy
+"root[*][""total""]",JSON object,,
+"root[*][""total""][""value""]",Number,Decimal (2 d.p.),The consolidated value of all the consultancies in the year. Expressed as a number in Australian dollars.
