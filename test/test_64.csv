@@ -1,0 +1,39 @@
+,
+HoleID,Drill hole name
+mFrom,Top of interval in metres
+mTo,Bottom of interval in metres
+Lithology1,Dominant lithology in interval
+Lithology2,Subordinate lithology in interval
+Lithology1_pct,Proportion of dominant lithology expressed as percentage
+Lithology2_pct,Proportion of subordinate lithology expressed as percentage
+Qualifier1,Lithology qualifier 1
+Qualifier2,Lithology qualifier 2
+Qualifier3,Lithology qualifier 3
+Induration,Observed induration
+Internal_stratification,Internal stratification observed
+Sedimentary_structures,Sedimentary structures observed
+Colour_tone,Nature of colouring
+Colour1,Dominant colour observed by geologist
+Colour2,Second most common colour observed by geologist
+Colour3,Third most common colour observed by geologist
+Colour4,Fourth most common colour observed by geologist
+Colour_desc,Free text description of colour observed by geologist
+Weathering_intensity,Classification of weathering intensity
+Upper_contact,Nature of upper contact
+Lower_contact,Nature of lower contact
+Fossils,Observed macrofossils
+Structure1,Dominant structural feature
+Structure2,Second most common structural feature
+Alteration_style,Style of alteration
+Alteration_intensity,Classification of alteration intensity
+Alteration_assemblage,Description of alteration minerals present in order of abundance
+Mineral1,Dominant sulphide
+Mineral2,Second most dominant sulphide
+Mineral3,Third most dominant sulphide
+Mineral4,Fourth most dominant sulphide
+Comments,Brief geological description
+Group,Stratigraphic group. Refer to Geoscience Australia stratigraphic database (http://www.ga.gov.au/data-pubs/data-standards/reference-databases/stratigraphic-units)
+Formation,Stratigraphic formation. Refer to Geoscience Australia stratigraphic database (http://www.ga.gov.au/data-pubs/data-standards/reference-databases/stratigraphic-units)
+Strat_interp_method,Method for assigning stratigraphy
+Stratigraphy_conf,Confidence in stratigraphic interpretation
+GA_Stratno,Australian stratigraphic units database stratigraphic unit number. Refer to Geoscience Australia stratigraphic database (http://www.ga.gov.au/data-pubs/data-standards/reference-databases/stratigraphic-units)

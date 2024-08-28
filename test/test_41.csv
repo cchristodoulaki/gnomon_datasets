@@ -1,0 +1,56 @@
+Variable,Description,Values/Format
+Postcode,Postcode in which property is located,Alphanumeric
+Bedrooms,Number of bedrooms in property,Numeric
+RentalUnitDesc,Descripton of property,Alphanumeric
+VUDate,Date the property became vacant,ddmmyyyy
+VTDate,Date the property became tenantable,ddmmyyyy
+TENDate,Date the property was tenanted,ddmmyyyy
+RUUseType,Housing program and property ownership/funding status,AHG = Indigenous rental housing - General stock (owned)
+,,AHS = Indigenous rental housing - Senior accommodation (owned)
+,,CAH = Community Housing - Affordable Housing (funded)
+,,CAO = Community Housing - Affordable Housing (owned)
+,,CBG = Community Housing - Boarding House Grant (funded)
+,,CBH = Community Housing - Boarding house program (owned)
+,,CLH = Community Housing - Long Term (owned)
+,,CLN = Community Housing - Long Term (non-funded)
+,,CLT = Community Housing - Long Term (funded)
+,,CRF = Community Housing - Rural Housing Service Centre (funded)
+,,CRH = Community Housing - Community Rent Scheme (headleased)
+,,CRO = Community Housing - Rural Housing Service Centre (owned)
+,,CRS = Community Housing - Community Rent Scheme (owned)
+,,DAS = Demolish/remove after settlement (owned)
+,,PHL = Community Housing Long Term (public housing stock - owned)
+,,RGS = Public rental housing - General stock (owned)
+,,SNR = Public rental housing - Senior accommodation (owned)
+,,STC = Same House Different Landlord (public housing stock - owned)
+,,STR = Community Housing - Community Rent Scheme (public housing stock - owned)
+,,STY = Community Housing - Youth Headleasing Transfer (public housing stock - owned)
+HousingServiceCentre,Housing Service Centre that manages the property,101 = Woodridge
+,,102 = Ipswich
+,,103 = Caboolture
+,,104 = Inala
+,,105 = Chermside
+,,106 = Capalaba
+,,107 = Buranda
+,,108 = Fortitude Valley
+,,109 = Wynnum
+,,110 = Redcliffe
+,,201 = Townsville
+,,202 = Cairns
+,,203 = Mackay
+,,204 = Robina
+,,205 = Maroochydore
+,,206 = Rockhampton
+,,207 = Toowoomba
+,,208 = Bundaberg
+,,209 = Mt Isa
+,,210 = Thursday Island
+,,211 = Emerald
+,,212 = Gladstone
+,,213 = Maryborough
+,,999 = Unknown
+VUDays,Number of days the property was vacant and untenantable ,Numeric
+VTDays,Number of days the property was vacant and tenantable ,Numeric
+TotalVAC,Total number of days the property was vacant,Numeric
+LGA,Local Government Authority in which property is located,Alphanumeric
+StateElectorate,State Electorate in which property is located,Alphanumeric 

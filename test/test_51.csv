@@ -1,0 +1,21 @@
+fieldname,description
+SITE_NAME,
+ADDRESS,
+STC_UPRN,Identifier used by STC
+UPRN,Unique Property Reference Number
+POST_CODE,post code
+CURRENT_STATUS,open in all 5 years
+NOTES,
+HEATING SOURCE,"coal, electricity, gas, gas oil"
+CORRECTION factor,"electricity (0.7); gas (1.0); no conversion factor used for gas-oil and coal, as these were directly converted from its original source"
+5 year average (kWh),5 year average for the corrected usage
+uncorrected 2008 (kWh),energy consumption for heat use 
+corrected 2008 (kWh),post use of correction factor
+uncorrected 2009 (kWh),energy consumption for heat use 
+corrected 2009 (kWh),post use of correction factor
+uncorrected 2010 (kWh),energy consumption for heat use 
+corrected 2010 (kWh),post use of correction factor
+uncorrected 2011 (kWh),energy consumption for heat use 
+corrected 2011 (kWh),post use of correction factor
+uncorrected 2012 (kWh),energy consumption for heat use 
+corrected 2012 (kWh),post use of correction factor

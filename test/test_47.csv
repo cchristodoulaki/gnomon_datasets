@@ -1,0 +1,15 @@
+Field Name,Description,Field Type,Field Size,Field Format and comments
+LCODE,Location code.,Text,4,"This is a 4 alpha numeric unique code that never changes and identifies the location over time irrespective of changes to any field including longitude, latitude, preferred name/s or alternate name/s. This field is the highest level you can get data on and will provide you with a search result showing all Preferred and Alternate names over the history of the dataset for any given location. "
+NCODE,Name code.,Text,7,"The first 4 characters are the LCODE. The next two characters are a two digit number representing the count of the Names starting with 001, this allows 999 Names for each LCODE. Only one current Preferred Name will exist for each LCODE at any given time. All other preferred name entries will have a date retired."
+NFLAG,Name Flag,Text,1,P for Preferred Name and A for Alternate Name.
+JURLINK,Jurisdictional Link.,Text,100,This is the link in the AGIL to the appropriate authorised Jurisdictional Data Sets used for each state or territory. NT - NT Place Name Register - eg - (http://www.ntlis.nt.gov.au/placenames/view.jsp?id=1)QLD -NSW -SA -WA -TAS -VIC -
+NAME,A name of the location.,Text,50,"This dataset contains Preferred and Alternate names for the locations where Australian Government policies, programs or grants have been, are being or will be dispersed for Indigenous persons at this Location. The Preferred name will always default to a Jurisdiction's gazetted name if applicable so the term 'preferred' does not infer that this is what any population, if there is one at the location, prefer to be called. Also, if the name is not gazetted, the spelling may represent most common occurrence due to the oral nature of the language. "
+STATECODE,State abbreviation,Text,3,"VIC, NSW, QLD, ACT, NT, WA, SA, TAS,  - OT is used for Other Territories"
+LATITUDE,Latitude,Number,,Five decimal places.
+LONGITUDE,Longitude,Number,,Five decimal places.
+LDATECRTD,Date location record was created,Date,,
+LDATERETD,Date location record was retired,Date,,
+NDATECRTD,Date name record was created,Date,,
+NDATERETD,Date name record was retired,Date,,
+LRETRESON,Reason location record retired,Text,180,Free text to give detailed description of reason entry retired.
+NRETRESON,Reason Name record retired,Text,180,Free text to give detailed description of reason entry retired.

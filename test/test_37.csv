@@ -1,0 +1,10 @@
+,
+School Number,Department for Education unique identifier
+School Name,Name of the school or preschool
+Street,Street address of the school or preschool
+Suburb,Suburb the school or preschool is located in
+Post code,Post code of the school or preschool
+Type of Schooling,"The type of schooling provided. Primary, Secondary, Primary/Secondary combined, Aboriginal/Anangu, Special Education, Integrated Centres, Preschools"
+Year Levels,Year level taught at schools
+Latitude,Latitude coordinates of the school or preschool
+Longitude,Longitude coordinates of the school or preschool

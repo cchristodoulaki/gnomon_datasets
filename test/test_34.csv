@@ -1,0 +1,13 @@
+Fieldname,Description
+AtcoCode,Full NaPTAN stop identifier that uniquely identifies the stop within the UK
+TiplocCode,TIming Point LOcation Code . Character code 4-6 alphanumeric characters
+CrsCode,Three letter Computer Reservation System code identifying a station
+StationName,Name of rail station
+StationNameLang,
+GridType,
+Easting,OSGR Easting
+Northing,OSGR Northing
+CreationDateTime,Creation Date Time
+ModificationDateTime,Modification Date Time
+RevisionNumber,Revision Number
+Modification,Modification

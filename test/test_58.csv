@@ -1,0 +1,13 @@
+Field name,Datatype,Use,Data format,Field size,Description,Example,Null Value,Notes
+Electoral Ward Code,String,Identifier,,,code used to represent 2007 electoral ward in Glasgow,S13002650,,
+Ward Name,String,info,,,name of the electoral / multi member ward,Anderston/City Centre,,
+Country of Birth,String,info,,,country of birth,Europe: United Kingdom: UK part not specified,,
+All people,Integer,value,,,total number of people in the multi member ward by age of arrival in the UK,29794,,
+Born in the UK,Integer,value,,,total number of people in the multimember ward born in the UK,21008,,
+Born outside the UK: Total,Integer,value,,,total number of people in the multimember ward born outside the UK,8786,,
+Born outside the UK: Arrived in the UK aged 0 to 15,Integer,value,,,total number of people in the multimember ward born outside the UK and who arrived in the UK between the ages of 0 and 15,1098,,
+Born outside the UK: Arrived in the UK aged 16 to 24,Integer,value,,,total number of people in the multimember ward born outside the UK and who arrived in the UK between the ages of 16 and 24,5208,,
+Born outside the UK: Arrived in the UK aged 25 to 34,Integer,value,,,total number of people in the multimember ward born outside the UK and who arrived in the UK between the ages of 25 and 34,1967,,
+Born outside the UK: Arrived in the UK aged 35 to 49,Integer,value,,,total number of people in the multimember ward born outside the UK and who arrived in the UK between the ages of 35 and 49,423,,
+Born outside the UK: Arrived in the UK aged 50 to 64,Integer,value,,,total number of people in the multimember ward born outside the UK and who arrived in the UK between the ages of 50 and 64,68,,
+Born outside the UK: Arrived in the UK aged 65 and over,Integer,value,,,total number of people in the multimember ward born outside the UK and who arrived in the UK aged 65 and over,22,,

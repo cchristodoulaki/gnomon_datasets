@@ -1,0 +1,12 @@
+Field Name,Description
+Road Name,Location name of Street tree e.g. park Nantu Wama
+Asset ID,Unique identifier for street tree asset
+Easting,X Coordinate of the street tree
+Northing,Y Coordinate of the street tree
+Circum,Circumference of the street tree in metres
+Vigour,"The strength and health of the tree e.g. low vigour, medium vigour, dying tree"
+Height,The height of the street tree
+Structure,"The structure of the tree e.g. fair structure, poor structure"
+Age,"A description of the age of the street tree e.g. juvenile, mature"
+Species Name,The scientific name of the species the tree originates from
+Common Name,The common name of the street tree.

@@ -1,0 +1,15 @@
+,
+Station Name,Name of Station - Often the street where station is located
+Address Line 1,First Line of Station address
+Address Line 2,Second Line of Station address
+Address Line 3,Third Line of Station address
+Postcode,Postcode of Station
+Easting,Ordnance Survey X - coordinate
+Northing,Ordnance Survey Y - coordinate
+Accessible,Is the train accesible for disabled people and wheelchair users. i.e. lifts etc
+Park and Ride,Is there park and ride facilities located at the station
+Wi-Fi,Is there Wi-FI facilities located at the station
+Bike Shelter,Is there Bike Shelter facilities located at the station
+Special Car Sharing Parking Spaces,Car park spaces for people who use car sharing. Initiative to reduce car use
+Lost Property Number,Telephone number of the lost property office
+Nearby,Details of city attractions that are in the vicinity of the station 

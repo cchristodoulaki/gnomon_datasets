@@ -1,0 +1,12 @@
+Field name,Description
+SITE_ID,The unique identifier used by Transport and Main Roads for the location that the traffic data is collected at. The is the physical location of a traffic counting device. Sites are located at a specified Through Distance along a Road Section. 
+DESCRIPTION,The descriptive deatils of the physical location of the traffic counting device
+LONGITUDE,Longitude of the location in decimal degrees (WGS Datum)
+LATITUDE,Latitude of the location in decimal degrees (WGS Datum)
+AADT,Annual Average Daily Traffic (AADT) is the number of vehicles passing a point on a road in a 24 hour period averaged over a calendar year. This figure for short term counts is seasonally adjusted.
+TDIST,TDist or Through Distance is the physical location of the traffic count site measured in kilometres from the beginning of the Road Section. 
+PERCENT_HV,Percentage of the AADT that are Heavy Vehicles. This figure maybe zero or empty where a traffic counter could not classify vehicles
+RSECT_ID,"Is the Gazetted road from which the traffic data is collected. Each Road Section is given a code allocated sequentially in Gazettal Direction. Larger roads are broken down into sections and identified by an ID code with a suffix for easier data collection and reporting (eg. 10A, 10B, 10C). Road Sections are then broken into AADT Segments which are determined by traffic volume."
+ROAD_NAME,"The name of a gazetted road section within a major road. For example the Bruce Highway is identified by the number 10 an alpha suffix is added to indicate the Road Section ""10A"" being Bruce Highway (Brisbane-Gympie)."
+TDIST_START,Is the start through distance in kilomtres of the segment the site is attached to for the road section. 
+TDIST_END,Is the end through distance in kilomtres of the segment the site is attached to for the road section. 

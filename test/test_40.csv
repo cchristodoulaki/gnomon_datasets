@@ -1,0 +1,11 @@
+Field Name,Description
+ZONE ID,Unique ID
+PRIME CONTROL,"Type of on street parking. E.g. residential, motorcycle, taxi etc. "
+NUMBER OF SPACES,Number of parking spaces available for that zone
+STREET,Street the parking control is located
+ORIGINS,Street origin of the on street parking zone
+START,Starting length from street of origin
+FINISH,Ending length from street of origin
+CONTROL1-4,Full description of controls of that parking zone
+ZONEANGLE,"Parking angle of the vehicle e.g. Parallel, 90"
+EXEMPTIONS,Any exemptions e.g. ACC personnel only

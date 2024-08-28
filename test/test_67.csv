@@ -1,0 +1,10 @@
+Field Name,Description
+Road Name,Location name of parking machine
+Asset ID,Unique identifier of parking machine asset
+Easting,X Coordinate of the parking machine
+Northing,Y Coordinate of the parking machine
+Max,The maximum number of parking hours at one time
+Rate,Parking fee per hour
+Operation Time,Time period in which a parking ticket is required
+No Standing,Time period when parking bays may not be used
+Bays,Number of bays controlled by the parking machine

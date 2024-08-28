@@ -1,0 +1,17 @@
+Field name,Datatype,Use,Data format,Field size,Description,Example,Null Value,Notes
+Data Zone,String,Identifier,,,The data zone is the key small-area statistical geography in Scotland.,S01003025,,
+Intermediate Geography Name,String,info,,,"aggregations of data zones within local authorities which contains between 2,500 and 6,000 people.",Carmunnock South,,
+Sex,String,info,,,sex of the people in the statistics,All people:,,This also contains both sexes which is called 'All people in the dataset'
+Age Bracket,String,info,,,Age bracket of the people in the statistics,0 to 15,,
+All people,Integer,value,,,All people counted with different religion by age by sex for each data zone,157,,
+Church of Scotland,Integer,value,,,All people whose denomination is Church of Scotland by age by sex for each data zone,47,,
+Roman Catholic,Integer,value,,,All people whose denomination is Roman Catholic by age by sex for each data zone,40,,
+Other Christian,Integer,value,,,All people whose denomination is Other Christian by age by sex for each data zone,6,,
+Buddhist,Integer,value,,,All people whose religion is Buddhist by age by sex for each data zone,0,,
+Hindu,Integer,value,,,All people whose religion is Hindu by age by sex for each data zone,0,,
+Jewish,Integer,value,,,All people whose religion is Jewish by age by sex for each data zone,0,,
+Muslim,Integer,value,,,All people whose religion is Islam by age by sex for each data zone,4,,
+Sikh,Integer,value,,,All people whose religion is Sikh by age by sex for each data zone,0,,
+Other religion,Integer,value,,,All people who belong to other religion by age by sex for each data zone,0,,
+No religion,Integer,value,,,All people who do not practice any religion by age by sex for each data zone,48,,
+Religion not stated,Integer,value,,,All people whose religion is not stated by age by sex for each data zone,12,,

@@ -1,0 +1,5 @@
+Fields,Description
+Data Zone,The data zone is the key small-area statistical geography in Scotland.
+Intermediate Geography Name,"aggregations of data zones within local authorities which contains between 2,500 and 6,000 people."
+CSdrvegp,Drive time (in minutes) to a GP
+CSdvechm,Drive time (in minutes) to Chemists and Pharmacies

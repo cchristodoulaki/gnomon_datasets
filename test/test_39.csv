@@ -1,0 +1,11 @@
+Field Name,Data Type,Use,Data Format,Field Size,Description,Example,Null Value,Notes
+2011 Data Zone code,Integer,Value,,,Data Zones are the small-area boundaries used to present SIMD (Scottish Index of Multiple Deprivation) data for Scotland,S01009758,,
+2011 Data Zone  name,String,Identifier,,,Data Zone name,Darnley East - 01,,
+2011 Intermediate Zone code,Integer,Value,,,Name used to represent aggregations of Data Zones within Local Authorities ,S02001842,,
+2011 Intermediate Zone name,String,Identifier,,,Intermediate Zone name,Darnley East,,
+Local authority code,Integer,Value,,,Name used to represent local government boundaries (Local Authorities) in Scotland,S12000046,,
+Local authority name,String,Info,,,Local Authority name,Glasgow City,,
+Multi-member ward code,Integer,Value,,,Multi Member wards represent the electoral boundaries for Scottish Local Authorities,S13002643,,
+Multi-Member ward name,String,Info,,,Name of the Multi Member wards,Greater Pollok Ward,,
+Scottish parliamentary constituency code,Integer,Value,,,Code used to represent the electoral boundaries for the Scottish Parliament,S16000119,,
+Scottish parliamentary constituency name,String,Info,,,Name of the Scottish Parliamentary constituencies,Glasgow Pollok P Const,,
