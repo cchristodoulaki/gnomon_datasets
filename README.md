@@ -6,6 +6,9 @@ The first line corresponds to the table header, and the following lines correspo
 Headers designate different metadata semantics. 
 Each row corresponds to metadata for a particular data attribute in a different file. 
 
+**Attributes:**
+- 
+
 ## `<dataset>`_table_list.csv
 
 This file records the original url the source file of each table was downloaded from.
