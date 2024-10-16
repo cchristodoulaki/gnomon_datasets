@@ -1,10 +1,11 @@
 # gnomon_datasets
 This repository contains two datasets used to evaluate Gnomon **link to be added when camera ready is available**.
-
+## Datasets
 Each dataset (`dev`, `test`) contains documentation tables extracted from Open Data repositories. 
-The first line corresponds to the table header, and the following lines correspond to the table data. 
-Headers designate different metadata semantics. 
-Each row corresponds to metadata for a particular data attribute in a different file. 
+
+The first line in each file corresponds to the table header, and the following lines correspond to the table data. 
+Headers designate different metadata semantics, which should be mapped to a unified metadata model. 
+Each row corresponds to metadata for a particular data attribute in a different file (not available in this dataset currently). 
 
 ### `<dataset>`_table_list.csv
 
