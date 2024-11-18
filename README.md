@@ -1,5 +1,17 @@
-# gnomon_datasets
-This repository contains two datasets used to evaluate Gnomon **link to be added when camera ready is available**.
+# Gnomon Datasets
+This repository contains two datasets used to create and evaluate evaluate Gnomon **link to be added when camera ready is available**.
+
+Please cite our EDBT'25 paper if you use them:
+```
+@inproceedings{christodoulakis_2025_gnomon,
+  author       = {Christina Christodoulakis and Moshe Gabel and Angela Demke Brown},
+  title        = {Metadata Unification in Open Data with Gnomon},
+  booktitle    = {Proceedings 28th International Conference on Extending Database Technology,
+                  {EDBT} 2025, Barcelona, Spain, March 25-28, 2025},
+  year         = {2025}
+}
+```
+
 ## Datasets
 Each dataset (`dev`, `test`) contains documentation tables extracted from Open Data repositories. 
 
